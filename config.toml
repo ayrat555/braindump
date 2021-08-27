@@ -1,4 +1,4 @@
-baseURL = "https://www.badykov.com/braindump/"
+baseURL = "https://braindump.badykov.com/"
 languageCode = "en-us"
 title = "Airat's Braindump"
 theme = "cortex"
