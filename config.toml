@@ -1,4 +1,8 @@
-baseURL = 'http://example.org/'
-languageCode = 'en-us'
-title = "Ayrat's braindump"
+baseURL = "https://www.badykov.com/braindump/"
+languageCode = "en-us"
+title = "Airat's Braindump"
 theme = "cortex"
+
+[params]
+email = "ayratin555@gmail.com"
+footer = "Icon by Freepik. Built with ♥ with Org-mode and Hugo."
