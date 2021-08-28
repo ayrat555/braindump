@@ -1,3 +1,4 @@
-[submodule "themes/cortex"]
-	path = themes/cortex
-	url = https://github.com/jethrokuan/cortex
+
+[submodule "themes/cortex-dark"]
+	path = themes/cortex-dark
+	url = https://github.com/ayrat555/cortex-dark
