@@ -2,6 +2,7 @@ baseURL = "https://braindump.badykov.com/"
 languageCode = "en-us"
 title = "Airat's Braindump"
 theme = "cortex-dark"
+pygmentsStyle = "dracula"
 
 [params]
 email = "ayratin555@gmail.com"
