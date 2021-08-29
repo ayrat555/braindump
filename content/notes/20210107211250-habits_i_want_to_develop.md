@@ -1,6 +1,6 @@
 +++
 title = "Habits I want to develop"
-author = ["Airat Badykov"]
+author = ["Бадыков Айрат"]
 draft = false
 +++
 

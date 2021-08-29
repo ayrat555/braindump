@@ -1,6 +1,6 @@
 +++
 title = "Setting up gpg on mac os"
-author = ["Airat Badykov"]
+author = ["Бадыков Айрат"]
 draft = false
 +++
 

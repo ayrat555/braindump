@@ -1,6 +1,6 @@
 +++
 title = "Terminal productivity"
-author = ["Airat Badykov"]
+author = ["Бадыков Айрат"]
 draft = false
 +++
 
