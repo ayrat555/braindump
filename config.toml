@@ -7,3 +7,4 @@ pygmentsStyle = "dracula"
 [params]
 email = "ayratin555@gmail.com"
 footer = "Icon by Freepik. Built with ♥ with Org-mode and Hugo."
+entrypoint = "/about"
