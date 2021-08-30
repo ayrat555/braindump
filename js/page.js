@@ -4,14 +4,15 @@ let animationLength = 200;
 
 function stackNote(href, level) {
   level = Number(level) || pages.length;
-  href = URI(href);
-  uri = URI(window.location);
-  pages.push(href.path());
-  uri.setQuery("stackedNotes", pages.slice(1, pages.length));
+  pages.push(href);
+
+  const query = new URLSearchParams(window.location.search);
+  query.set("stackedNotes", pages.slice(1, pages.length))
+  const uri = window.location.origin + window.location.pathname + '?' + query.toString()
 
   old_pages = pages.slice(0, level - 1);
   state = { pages: old_pages, level: level };
-  window.history.pushState(state, "", uri.href());
+  window.history.pushState(state, "", uri);
 }
 
 function unstackNotes(level) {
@@ -56,10 +57,18 @@ function fetchNote(href, level) {
         function (element, level) {
           element.dataset.level = level + 1;
           initializePage(element, level + 1);
-          element.scrollIntoView();
+
+          const behavior = 'smooth';
+          const mediaQuery = window.matchMedia('(prefers-reduced-motion: reduce)');
+          if (mediaQuery.matches) {
+            behaviour = 'auto';
+          }
+          element.scrollIntoView({ behavior });
+
           if (window.MathJax) {
             window.MathJax.typeset();
           }
+          updateCollapsedState();
         }.bind(null, element, level),
         10
       );
@@ -114,13 +123,62 @@ window.addEventListener("popstate", function (event) {
   window.location = window.location; // this reloads the page.
 });
 
-window.onload = function () {
-  initializePage(document.querySelector(".page"));
+// The debounce function receives our function as a parameter
+// Thanks to https://css-tricks.com/styling-based-on-scroll-position/
+const debounce = (fn) => {
+  let frame;
+  return (...params) => {
+    if (frame) { 
+      cancelAnimationFrame(frame);
+    }
+    frame = requestAnimationFrame(() => {
+      fn(...params);
+    });
+  } 
+};
 
-  let stacks = [];
-  uri = URI(window.location);
-  if (uri.hasQuery("stackedNotes")) {
-    stacks = uri.query(true).stackedNotes;
+function updateCollapsedState() {
+  const pages = document.querySelectorAll('.page');
+  const width = pages[0].offsetWidth;
+  const titleWidth = 40; // px
+
+  for (let i = 0; i < pages.length; i++) {
+    const offsetWidth = (width * (i+1));
+    const collapsedWidth = pages[i].offsetLeft + titleWidth;
+
+    if (offsetWidth < collapsedWidth) {
+      pages[i].classList.add("collapsed");
+      pages[i].classList.remove("collapsing");
+      continue
+    } else {
+      pages[i].classList.remove("collapsed");
+    }
+
+    if (offsetWidth < collapsedWidth + 2) {
+      pages[i].classList.add("collapsing");
+    } else {
+      pages[i].classList.remove("collapsing");
+    }
+  }
+}
+
+window.onload = function () {
+  if (typeof URLSearchParams !== 'function') {
+    // If we don't have URLSearchParams (IE11 for example), don't even bother
+    return
+  }
+
+  if (window.innerWidth <= 640) {
+    // We have a small screen with no need for nice stacking
+    return
+  }
+
+  initializePage(document.querySelector('.page'));
+
+  const query = new URLSearchParams(window.location.search);
+  const stackedNotes = query.get('stackedNotes');
+  if (stackedNotes) {
+    const stacks = stackedNotes.split(',');
     if (!Array.isArray(stacks)) {
       stacks = [stacks];
     }
@@ -128,4 +186,8 @@ window.onload = function () {
       fetchNote(stacks[i], i + 1);
     }
   }
+
+  document.querySelector('.grid')
+    .addEventListener('scroll', debounce(updateCollapsedState), { passive: true });
 };
+
