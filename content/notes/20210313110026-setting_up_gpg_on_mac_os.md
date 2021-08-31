@@ -1,6 +1,7 @@
 +++
 title = "Setting up gpg on mac os"
 author = ["Бадыков Айрат"]
+lastmod = 2021-08-31T18:23:53+03:00
 draft = false
 +++
 

@@ -1,6 +1,7 @@
 +++
 title = "Weekly tech meetup"
 author = ["Бадыков Айрат"]
+lastmod = 2021-08-31T18:23:44+03:00
 draft = false
 +++
 

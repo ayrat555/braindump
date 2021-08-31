@@ -1,6 +1,7 @@
 +++
 title = "Terminal productivity"
 author = ["Бадыков Айрат"]
+lastmod = 2021-08-31T18:24:02+03:00
 draft = false
 +++
 

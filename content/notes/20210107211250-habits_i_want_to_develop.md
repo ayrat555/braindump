@@ -1,6 +1,7 @@
 +++
 title = "Habits I want to develop"
 author = ["Бадыков Айрат"]
+lastmod = 2021-08-31T18:23:47+03:00
 draft = false
 +++
 
