@@ -7,7 +7,7 @@ Supports IPC and HTTP
 Batch requests
 Custom RPC calls
 Complete wrapper for Ethreum API
-It was my first Ethereum related library. The first version I wrote over one weekend.</description></item><item><title>My braindump</title><link>https://braindump.badykov.com/notes/20210831225847-my_braindump/</link><pubDate>Thu, 02 Sep 2021 21:46:23 +0300</pubDate><guid>https://braindump.badykov.com/notes/20210831225847-my_braindump/</guid><description>My Braindump is generated with ox-hugo from my Org-Roam notes. The current idea for it is to be my personal knowledge system.
+It was my first Ethereum related library. I wrote the first version over one weekend .</description></item><item><title>My braindump</title><link>https://braindump.badykov.com/notes/20210831225847-my_braindump/</link><pubDate>Thu, 02 Sep 2021 21:46:23 +0300</pubDate><guid>https://braindump.badykov.com/notes/20210831225847-my_braindump/</guid><description>My Braindump is generated with ox-hugo from my Org-Roam notes. The current idea for it is to be my personal knowledge system.
 Related links:
 github repo - my braindump is hosted on github with github pages cortex-dark - hugo theme for the braindump Backlog:
 Simplify the process of exporting notes
