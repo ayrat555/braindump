@@ -1,4 +1,27 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Notes on Airat's Braindump</title><link>https://braindump.badykov.com/notes/</link><description>Recent content in Notes on Airat's Braindump</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 01 Sep 2021 20:00:51 +0300</lastBuildDate><atom:link href="https://braindump.badykov.com/notes/index.xml" rel="self" type="application/rss+xml"/><item><title>Life Balance</title><link>https://braindump.badykov.com/notes/20210901191515-life_balance/</link><pubDate>Wed, 01 Sep 2021 20:00:51 +0300</pubDate><guid>https://braindump.badykov.com/notes/20210901191515-life_balance/</guid><description>I released a mobile game called &amp;ldquo;Life Balance&amp;rdquo; in 2019.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Notes on Airat's Braindump</title><link>https://braindump.badykov.com/notes/</link><description>Recent content in Notes on Airat's Braindump</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 02 Sep 2021 21:46:27 +0300</lastBuildDate><atom:link href="https://braindump.badykov.com/notes/index.xml" rel="self" type="application/rss+xml"/><item><title>Accessing site variables in Hugo render hooks</title><link>https://braindump.badykov.com/notes/20210902211035-accessing_site_variables_in_hugo_render_hooks/</link><pubDate>Thu, 02 Sep 2021 21:46:27 +0300</pubDate><guid>https://braindump.badykov.com/notes/20210902211035-accessing_site_variables_in_hugo_render_hooks/</guid><description>To access site variables inside of a Hugo render hook it should be prepended with .Page.
+For example to access BaseURL instead of
+{{ .Site.BaseURL }} you shoud use
+{{ .Page.Site.BaseURL }}</description></item><item><title>Ethereumex</title><link>https://braindump.badykov.com/notes/20210902194855-ethereumex/</link><pubDate>Thu, 02 Sep 2021 21:46:26 +0300</pubDate><guid>https://braindump.badykov.com/notes/20210902194855-ethereumex/</guid><description>Ethereumex - Elixir JSON-RPC client for the Ethereum blockchain
+Key features:
+Supports IPC and HTTP
+Batch requests
+Custom RPC calls
+Complete wrapper for Ethreum API
+It was my first Ethereum related library. The first version I wrote over one weekend.</description></item><item><title>My braindump</title><link>https://braindump.badykov.com/notes/20210831225847-my_braindump/</link><pubDate>Thu, 02 Sep 2021 21:46:23 +0300</pubDate><guid>https://braindump.badykov.com/notes/20210831225847-my_braindump/</guid><description>My Braindump is generated with ox-hugo from my Org-Roam notes. The current idea for it is to be my personal knowledge system.
+Related links:
+github repo - my braindump is hosted on github with github pages cortex-dark - hugo theme for the braindump Backlog:
+Simplify the process of exporting notes
+Maintain two sets of notes.</description></item><item><title>Ethereum Yellow Paper</title><link>https://braindump.badykov.com/notes/20210831150523-ethereum_yellow_paper/</link><pubDate>Thu, 02 Sep 2021 21:46:17 +0300</pubDate><guid>https://braindump.badykov.com/notes/20210831150523-ethereum_yellow_paper/</guid><description>Ethereum Yellow Paper is a formal specification of Ethereum protocol.
+This document is the main source of truth for implementing Ethereum nodes (clients).
+It&amp;rsquo;s written very formal so it&amp;rsquo;s better to start from the Ethereum Whitepaper</description></item><item><title>My projects</title><link>https://braindump.badykov.com/notes/20210830181701-my_projects/</link><pubDate>Thu, 02 Sep 2021 21:46:13 +0300</pubDate><guid>https://braindump.badykov.com/notes/20210830181701-my_projects/</guid><description>Rust El Monitorro - Telegram bot for reading feeds in Rust
+Fang - Background processing library in Rust
+Frankenstein - Telegram client for Rust
+Cronenberg - Simple cron command entry parser in Rust
+Elixir Mana - Ethereum implementation in Elixir
+Blockscout - Ethereum explorer
+ExRLP - Elixir implementation of Ethereum&amp;rsquo;s RLP (Recursive Length Prefix) encoding</description></item><item><title>Emacs</title><link>https://braindump.badykov.com/notes/20210107221817-emacs/</link><pubDate>Thu, 02 Sep 2021 21:45:52 +0300</pubDate><guid>https://braindump.badykov.com/notes/20210107221817-emacs/</guid><description>Emacs is an (esoteric) text editor. Its key feature is extensibility. Emacs provides Emacs Lisp programming language which is used to write extensions.
+Great Emacs packages:
+Magit - a git interface Org-Mode is a document editing, formatting, and organizing mode Org-Roam is a personal knowledge management tool You can check out my blog post I wrote a long time ago where I&amp;rsquo;m trying to sell Emacs.</description></item><item><title>Life Balance</title><link>https://braindump.badykov.com/notes/20210901191515-life_balance/</link><pubDate>Wed, 01 Sep 2021 20:00:51 +0300</pubDate><guid>https://braindump.badykov.com/notes/20210901191515-life_balance/</guid><description>I released a mobile game called &amp;ldquo;Life Balance&amp;rdquo; in 2019.
 The idea of the game is an infinite runner with multiple life bars.
 I released it both for Android and iOS. But it was taken down from the App Store because I stopped my dev subscription.
 In 2021 I ported the game to web:
@@ -15,20 +38,7 @@ Thoughts:
 Should I migrate all my posts to my My braindump ?</description></item><item><title>My resources and social links</title><link>https://braindump.badykov.com/notes/20210901184335-my_resources_and_social_links/</link><pubDate>Wed, 01 Sep 2021 20:00:49 +0300</pubDate><guid>https://braindump.badykov.com/notes/20210901184335-my_resources_and_social_links/</guid><description>I use two resources to write my thoughts:
 My braindump My Blog My social links:
 GitHub Twitter Telegram Email - ayratin555@gmail.com
-If you like my work, consider donating</description></item><item><title>My projects</title><link>https://braindump.badykov.com/notes/20210830181701-my_projects/</link><pubDate>Wed, 01 Sep 2021 20:00:38 +0300</pubDate><guid>https://braindump.badykov.com/notes/20210830181701-my_projects/</guid><description>Rust El Monitorro - Telegram bot for reading feeds in Rust
-Fang - Background processing library in Rust
-Frankenstein - Telegram client for Rust
-Cronenberg - Simple cron command entry parser in Rust
-Elixir Mana - Ethereum implementation in Elixir
-Blockscout - Ethereum explorer
-ExRLP - Elixir implementation of Ethereum&amp;rsquo;s RLP (Recursive Length Prefix) encoding</description></item><item><title>Emacs</title><link>https://braindump.badykov.com/notes/20210107221817-emacs/</link><pubDate>Wed, 01 Sep 2021 20:00:18 +0300</pubDate><guid>https://braindump.badykov.com/notes/20210107221817-emacs/</guid><description>Emacs is an (esoteric) text editor. Its key feature is extensibility. Emacs provides Emacs Lisp programming language which is used to write extensions.
-Great Emacs packages:
-Magit - a git interface Org-Mode is a document editing, formatting, and organizing mode Org-Roam is a personal knowledge management tool You can check out my blog post I wrote a long time ago where I&amp;rsquo;m trying to sell Emacs.</description></item><item><title>My braindump</title><link>https://braindump.badykov.com/notes/20210831225847-my_braindump/</link><pubDate>Tue, 31 Aug 2021 23:47:20 +0300</pubDate><guid>https://braindump.badykov.com/notes/20210831225847-my_braindump/</guid><description>My Braindump is generated with ox-hugo from my Org-Roam notes. The current idea for it is to be my personal knowledge system.
-Backlog:
-Simplify the process of exporting notes
-Maintain two sets of notes.
-Public notes will be used in the braindump. Private notes will be used for personal thoughts, projects and ideas
-Add additional info to notes (created at, updated at, etc)</description></item><item><title>Company-elixir</title><link>https://braindump.badykov.com/notes/20210831232850-company_mode_for_elixir/</link><pubDate>Tue, 31 Aug 2021 23:34:59 +0300</pubDate><guid>https://braindump.badykov.com/notes/20210831232850-company_mode_for_elixir/</guid><description>company-elixir is a company-mode completion backend for Elixir.
+If you like my work, consider donating</description></item><item><title>Company-elixir</title><link>https://braindump.badykov.com/notes/20210831232850-company_mode_for_elixir/</link><pubDate>Tue, 31 Aug 2021 23:34:59 +0300</pubDate><guid>https://braindump.badykov.com/notes/20210831232850-company_mode_for_elixir/</guid><description>company-elixir is a company-mode completion backend for Elixir.
 It uses a separate IEx (Elixir&amp;rsquo;s interactive shell) process to fetch completions from.
 I abandoned this project but it can be used as a reference for async company backends .</description></item><item><title>Zettelkasten</title><link>https://braindump.badykov.com/notes/20210831214301-zettelkasten/</link><pubDate>Tue, 31 Aug 2021 23:34:58 +0300</pubDate><guid>https://braindump.badykov.com/notes/20210831214301-zettelkasten/</guid><description>Zettelkasten is a note-taking and personal knowledge management method
 Tools that implement this method:
@@ -55,9 +65,7 @@ It was needed for the Ethereum Virual Machine operation codes in Mana</descripti
 It&amp;rsquo;s used for communication with Ethereum smart contracts.
 The specification can be found in Solidity docs</description></item><item><title>ExSecp256k1</title><link>https://braindump.badykov.com/notes/20210831153203-exsecp256k1/</link><pubDate>Tue, 31 Aug 2021 18:24:16 +0300</pubDate><guid>https://braindump.badykov.com/notes/20210831153203-exsecp256k1/</guid><description>ExSecp256k1 - Rust Native Implemented Function (NIF) that wraps a couple functions from the libsecp256k1 Rust library .
 It only wraps secp256k1 functions used in Ethereum.
-Secp256k1 is the name of the elliptic curve to implement its public key cryptography.</description></item><item><title>Ethereum Yellow Paper</title><link>https://braindump.badykov.com/notes/20210831150523-ethereum_yellow_paper/</link><pubDate>Tue, 31 Aug 2021 18:24:15 +0300</pubDate><guid>https://braindump.badykov.com/notes/20210831150523-ethereum_yellow_paper/</guid><description>Ethereum Yellow Paper is a formal specification of Ethereum protocol.
-This document is the main source of truth for implementing Ethereum nodes (clients).
-It&amp;rsquo;s written very formal so it&amp;rsquo;s better to start from the Ethereum Whitepaper</description></item><item><title>ExRLP</title><link>https://braindump.badykov.com/notes/20210831143205-exrlp/</link><pubDate>Tue, 31 Aug 2021 18:24:15 +0300</pubDate><guid>https://braindump.badykov.com/notes/20210831143205-exrlp/</guid><description>ExRLP - RLP encoding implementation for Elixir
+Secp256k1 is the name of the elliptic curve to implement its public key cryptography.</description></item><item><title>ExRLP</title><link>https://braindump.badykov.com/notes/20210831143205-exrlp/</link><pubDate>Tue, 31 Aug 2021 18:24:15 +0300</pubDate><guid>https://braindump.badykov.com/notes/20210831143205-exrlp/</guid><description>ExRLP - RLP encoding implementation for Elixir
 The purpose of RLP (Recursive Length Prefix) is to encode arbitrarily nested arrays of binary data.
 Formal specification can be found in the Ethereum Yellow Paper</description></item><item><title>Blockscout</title><link>https://braindump.badykov.com/notes/20210830185320-blockscout/</link><pubDate>Tue, 31 Aug 2021 18:24:14 +0300</pubDate><guid>https://braindump.badykov.com/notes/20210830185320-blockscout/</guid><description>Blockscout - blockchain explorer for Ethereum based chains.
 I&amp;rsquo;ve worked on it for a year</description></item><item><title>Cronenberg</title><link>https://braindump.badykov.com/notes/20210831083052-cronenberg/</link><pubDate>Tue, 31 Aug 2021 18:24:14 +0300</pubDate><guid>https://braindump.badykov.com/notes/20210831083052-cronenberg/</guid><description>Cronenberg - cron command entry parser in Rust.

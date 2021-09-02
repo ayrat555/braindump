@@ -7,8 +7,9 @@ function stackNote(href, level) {
   pages.push(href);
 
   const query = new URLSearchParams(window.location.search);
-  query.set("stackedNotes", pages.slice(1, pages.length))
-  const uri = window.location.origin + window.location.pathname + '?' + query.toString()
+  query.set("stackedNotes", pages.slice(1, pages.length));
+  const uri =
+    window.location.origin + window.location.pathname + "?" + query.toString();
 
   old_pages = pages.slice(0, level - 1);
   state = { pages: old_pages, level: level };
@@ -43,8 +44,8 @@ function fetchNote(href, level) {
 
   const request = new Request(href);
   fetch(request)
-    .then((response) => response.text())
-    .then((text) => {
+    .then(response => response.text())
+    .then(text => {
       unstackNotes(level);
       let container = document.querySelector(".grid");
       let fragment = document.createElement("template");
@@ -58,10 +59,12 @@ function fetchNote(href, level) {
           element.dataset.level = level + 1;
           initializePage(element, level + 1);
 
-          const behavior = 'smooth';
-          const mediaQuery = window.matchMedia('(prefers-reduced-motion: reduce)');
+          const behavior = "smooth";
+          const mediaQuery = window.matchMedia(
+            "(prefers-reduced-motion: reduce)"
+          );
           if (mediaQuery.matches) {
-            behaviour = 'auto';
+            behaviour = "auto";
           }
           element.scrollIntoView({ behavior });
 
@@ -91,6 +94,7 @@ function initializePage(page, level) {
         (
           rawHref.indexOf("http://") === 0 ||
           rawHref.indexOf("https://") === 0 ||
+          rawHref.indexOf("mailto:") === 0 ||
           rawHref.indexOf("#") === 0 ||
           rawHref.includes(".pdf") ||
           rawHref.includes(".svg")
@@ -125,31 +129,31 @@ window.addEventListener("popstate", function (event) {
 
 // The debounce function receives our function as a parameter
 // Thanks to https://css-tricks.com/styling-based-on-scroll-position/
-const debounce = (fn) => {
+const debounce = fn => {
   let frame;
   return (...params) => {
-    if (frame) { 
+    if (frame) {
       cancelAnimationFrame(frame);
     }
     frame = requestAnimationFrame(() => {
       fn(...params);
     });
-  } 
+  };
 };
 
 function updateCollapsedState() {
-  const pages = document.querySelectorAll('.page');
+  const pages = document.querySelectorAll(".page");
   const width = pages[0].offsetWidth;
   const titleWidth = 40; // px
 
   for (let i = 0; i < pages.length; i++) {
-    const offsetWidth = (width * (i+1));
+    const offsetWidth = width * (i + 1);
     const collapsedWidth = pages[i].offsetLeft + titleWidth;
 
     if (offsetWidth < collapsedWidth) {
       pages[i].classList.add("collapsed");
       pages[i].classList.remove("collapsing");
-      continue
+      continue;
     } else {
       pages[i].classList.remove("collapsed");
     }
@@ -163,22 +167,22 @@ function updateCollapsedState() {
 }
 
 window.onload = function () {
-  if (typeof URLSearchParams !== 'function') {
+  if (typeof URLSearchParams !== "function") {
     // If we don't have URLSearchParams (IE11 for example), don't even bother
-    return
+    return;
   }
 
   if (window.innerWidth <= 640) {
     // We have a small screen with no need for nice stacking
-    return
+    return;
   }
 
-  initializePage(document.querySelector('.page'));
+  initializePage(document.querySelector(".page"));
 
   const query = new URLSearchParams(window.location.search);
-  const stackedNotes = query.get('stackedNotes');
+  const stackedNotes = query.get("stackedNotes");
   if (stackedNotes) {
-    const stacks = stackedNotes.split(',');
+    const stacks = stackedNotes.split(",");
     if (!Array.isArray(stacks)) {
       stacks = [stacks];
     }
@@ -187,7 +191,9 @@ window.onload = function () {
     }
   }
 
-  document.querySelector('.grid')
-    .addEventListener('scroll', debounce(updateCollapsedState), { passive: true });
+  document
+    .querySelector(".grid")
+    .addEventListener("scroll", debounce(updateCollapsedState), {
+      passive: true,
+    });
 };
-
