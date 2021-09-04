@@ -48,7 +48,7 @@
           env-value
         (error (format "%s is not set or is not an existing directory (%s)" env-key env-value)))))
 
-  (setq org-hugo-default-section-directory "")
+  (setq org-hugo-section "notes")
 
   (dolist (org-file (directory-files-recursively notes-org-files "\.org$"))
     (with-current-buffer (find-file org-file)
