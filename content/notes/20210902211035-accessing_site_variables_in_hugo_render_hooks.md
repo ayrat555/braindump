@@ -1,7 +1,6 @@
 +++
 title = "Accessing site variables in Hugo render hooks"
 author = ["Бадыков Айрат"]
-lastmod = 2021-09-02T21:46:27+03:00
 draft = false
 +++
 
@@ -18,3 +17,5 @@ you shoud use
 ```nil
 {{ .Page.Site.BaseURL }}
 ```
+
+<https://discourse.gohugo.io/t/render-hook-templates-and-site-variables/33128>

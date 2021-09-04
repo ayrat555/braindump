@@ -1,0 +1,21 @@
+:PROPERTIES:
+:ID:       30884C9C-7F1E-49EE-B91E-02C599064A1C
+:END:
+#+title: Accessing site variables in Hugo render hooks
+#+filetags: :hugo:
+
+To access site variables inside of a [[https://gohugo.io/getting-started/configuration-markup#markdown-render-hooks][Hugo render hook]] it should be prepended with *.Page*.
+
+For example to access *BaseURL* instead of
+
+     #+BEGIN_SRC
+    {{ .Site.BaseURL }}
+     #+END_SRC
+you shoud use
+
+
+     #+BEGIN_SRC
+    {{ .Page.Site.BaseURL }}
+     #+END_SRC
+
+https://discourse.gohugo.io/t/render-hook-templates-and-site-variables/33128

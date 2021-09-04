@@ -1,0 +1,40 @@
+:PROPERTIES:
+:ID:       DA3661CB-35B7-4CB2-B4C9-63505168E5B7
+:END:
+#+title: My braindump
+#+filetags: :notes:
+
+[[https://braindump.badykov.com/about/][My Braindump]] is generated with [[https://github.com/kaushalmodi/ox-hugo][ox-hugo]] from my [[id:695E8B9A-73D7-4D3F-89F2-5D11D1BA2A61][Org-Roam]] notes. The current idea for it is to be my personal knowledge system.
+
+* Related links:
+
+- [[https://github.com/ayrat555/braindump][github repo]] - my braindump is hosted on github with github pages
+- [[https://github.com/ayrat555/cortex-dark][cortex-dark]] - hugo theme for the braindump
+
+* Backlog:
+
+- Simplify the process of exporting notes
+
+- Maintain two sets of notes.
+
+  Public notes will be used in the braindump. Private notes will be used for personal thoughts, projects and ideas
+
+- Add additional info to notes (created at, updated at, etc)
+
+- Take a look at the issue when there are too many stacked pages
+
+- Add analytics
+
+- Add a list of my posts
+
+- Add README to the Repo
+
+* Thoughts:
+
+- Should I dump (:]) by braindump weekly ?
+
+
+* Good looking braindumps from other people:
+
+- https://bphenriques.github.io/knowledge-base/
+- https://notes.arne.me/about-these-notes/

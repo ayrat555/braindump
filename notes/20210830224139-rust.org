@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       57E3FAAB-E860-413D-A285-0C7077C5EDBE
+:END:
+#+title: Rust
+
+[[https://www.rust-lang.org/][Rust]] is a high level, general purpose, statically typed programming language.
+
+Key features:
+
+- Performance
+- Safety

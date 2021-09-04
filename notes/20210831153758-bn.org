@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       3E888A8E-CCFF-4F38-ACBA-9287816852CE
+:END:
+#+title: BN
+#+filetags: :oos:public::ethereum:elixir
+
+[[https://github.com/mana-ethereum/bn][BN]] - BN128 elliptic curve operations for Elixir.
+
+The implementation is inspired (copied :]) from [[https://github.com/ethereum/py_ecc][the Vitalik Buterin's python implementation]].
+
+It was needed for the [[id:07B9A37D-783A-4BCC-B39B-9EB989E111DC][Ethereum Virual Machine]] operation codes in [[id:F792CA3D-6091-4AB6-9F6C-B5AF3FDF0084][Mana]]

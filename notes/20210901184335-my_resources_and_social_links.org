@@ -1,0 +1,20 @@
+:PROPERTIES:
+:ID:       1A864921-060E-466A-B39B-80B652028104
+:END:
+#+title: My resources and social links
+#+filetags: :resources:
+
+I use two resources to write my thoughts:
+
+- [[id:DA3661CB-35B7-4CB2-B4C9-63505168E5B7][My braindump]]
+- [[id:E444BD6C-0BEA-429A-8142-2ED63448FC6A][My Blog]]
+
+My social links:
+
+- [[https://github.com/ayrat555][GitHub]]
+- [[https://twitter.com/ayrat_badykov][Twitter]]
+- [[https://t.me/ayrat555][Telegram]]
+
+Email - ayratin555@gmail.com
+
+If you like my work, consider [[id:5FBA586F-D761-4142-BE87-480BDD29748A][donating]]

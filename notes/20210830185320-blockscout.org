@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       E46C2BFA-B135-4619-9A17-1ABDED090427
+:END:
+#+title: Blockscout
+#+filetags: :elixir:oos:ethereum:public:
+
+[[https://github.com/blockscout/blockscout][Blockscout]] - blockchain explorer for Ethereum based chains.
+
+I've worked on it for a year

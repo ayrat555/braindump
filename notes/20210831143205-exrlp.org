@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       39D1BBE6-0ED5-4CBD-81A8-3D81B1565BFA
+:END:
+#+title: ExRLP
+#+filetags: :ethereum:oos:elixir:public:
+
+[[https://github.com/mana-ethereum/ex_rlp][ExRLP]] - RLP encoding implementation for Elixir
+
+The purpose of RLP (Recursive Length Prefix) is to encode arbitrarily nested arrays of binary data.
+
+Formal specification can be found in the [[id:34348C9B-ECF0-45FA-9DB9-E5632F81AE5D][Ethereum Yellow Paper]]

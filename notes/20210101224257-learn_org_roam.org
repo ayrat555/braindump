@@ -1,0 +1,20 @@
+:PROPERTIES:
+:roam_tags: learn emacs productivity
+:ID:       11CF6228-7E3A-41AC-AB54-B54A7BFFA8E6
+:END:
+#+title: Learn org-roam
+
+Blog posts on org-roam:
+- https://notes.alexkehayias.com/org-roam/
+- https://vincent.demeester.fr/articles/org_roam.html
+- https://www.lesswrong.com/posts/NfdHG6oHBJ8Qxc26s/the-zettelkasten-method-1
+
+Videos on zettelkasten:
+
+https://www.google.com/search?q=zettelkasten+youtube&sxsrf=ALeKk03k_168n-0OQ_xRpyQMGCzdW7u1-Q:1609530353742&source=lnms&tbm=vid&sa=X&ved=2ahUKEwjMsPXnv_vtAhXSmIsKHUdKDWcQ_AUoAXoECAYQAw&biw=1440&bih=795
+
+Improvements:
+- Different directory: I think content to consume should have a separate directory
+- Journaling ? how will it help
+- cypher personal stuff
+- cloud

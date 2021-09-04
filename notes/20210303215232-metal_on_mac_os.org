@@ -1,0 +1,15 @@
+:PROPERTIES:
+:ID:       EADBC0AC-180A-48BC-9E4C-8574717619F2
+:END:
+#+title: metal on mac os
+#+filetags: :rust:amethyst:workaround:
+
+metal is needed for the amethyst framework
+
+How to fix
+Install Xcode from the Apple App Store.
+Install the command line tools with xcode-select --install. This might do nothing on your machine.
+If xcode-select --print-path prints /Library/Developer/CommandLineTools…
+then run sudo xcode-select --switch /Applications/Xcode.app/Contents/Developer.
+
+https://github.com/gfx-rs/gfx/issues/2309#issuecomment-506130902

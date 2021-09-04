@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       8B2C4908-769F-4CF7-884D-603CE1CA619B
+:END:
+#+title: emacs env for elixir
+#+filetags: :emacs:hobby_project:contribution:oss:
+
+Create a setup for elixir dev in emacs. Like unmaintained `alchemist`

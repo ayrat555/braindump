@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       03D30477-7707-4E62-BB6C-D29EE5F1534D
+:END:
+#+title: Taskwarrior
+#+filetags: :terminal:productivity:task:
+
+[[https://github.com/GothenburgBitFactory/taskwarrior][Taskwarrior]] - is a command line task list manager
+
+Thoughts:
+
+- It contains a subset of features from [[id:BA8CAFC9-6132-4761-BAFB-EF05C5C3306A][Org Mode]]
+- It may be more performant than org mode

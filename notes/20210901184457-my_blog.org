@@ -1,0 +1,21 @@
+:PROPERTIES:
+:ID:       E444BD6C-0BEA-429A-8142-2ED63448FC6A
+:END:
+#+title: My Blog
+#+filteags: :resources:
+
+[[https://www.badykov.com/][My blog]] is hosted on [[https://github.com/ayrat555/ayrat555.github.io][github pages]] and it uses [[https://jekyllrb.com/][Jekyll]]. I started writing posts for it in the October of 2017.
+
+Now I write at least a single post per month.
+
+Backlog:
+
+- Change theme / maybe migrate to a different static site generator
+
+- Add search
+
+  This feature is mostly needed for myself
+
+Thoughts:
+
+- Should I migrate all my posts to my [[id:DA3661CB-35B7-4CB2-B4C9-63505168E5B7][My braindump]]?

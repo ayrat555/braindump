@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       0BA29FD0-14E4-4EE7-9858-6B34923FF318
+:END:
+#+title: Terminal navigation
+#+filetags: :productivity:terminal:
+
+* fzf - command-line fuzzy finder
+
+  https://github.com/junegunn/fzf
+
+* zoxide - dir navigation
+
+  https://github.com/ajeetdsouza/zoxide

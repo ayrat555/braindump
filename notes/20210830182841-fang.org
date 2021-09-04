@@ -1,0 +1,24 @@
+:PROPERTIES:
+:ID:       02FBC785-4C3F-4C0C-A7CB-19A70ABCA0F7
+:END:
+#+title: Fang
+#+filetags: :rust:oos:public:
+
+[[https://github.com/ayrat555/fang][Fang]] is a background processing framework written in Rust.
+
+Key attribures:
+
+- Postgres DB is a job queue
+- Multithreaded processing
+
+* Potential features/improvements
+
+- Allow duplicates in the queue
+
+  Currently you can not insert the same job in the queue multiple times.
+
+  It's done mostly for [[id:BFF68ECC-6096-40BE-B6D6-9FA5AA1F62A1][El Monitorro]]
+
+- Find a way to get rid of typetag
+
+  https://github.com/dtolnay/typetag/issues/35

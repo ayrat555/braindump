@@ -1,0 +1,28 @@
+:PROPERTIES:
+:ID:       FC7C90D3-8FCB-47BA-B1CD-30F796E3BF81
+:END:
+#+title: Life Balance
+#+filetags: :projects:games:
+
+I released a mobile game called "Life Balance" in 2019.
+
+The idea of the game is an infinite runner with multiple life bars.
+
+I released it both for [[https://play.google.com/store/apps/details?id=com.thoughtkraken.lifebalance][Android]] and iOS. But it was taken down from the App Store because I stopped my dev subscription.
+
+In 2021 I ported the game to web:
+
+- [[https://ayrat555.itch.io/life-balance][itch.io]]
+- [[https://thoughtkraken.com/life_balance/play][self-hosted]]
+
+The game also has a [[https://thoughtkraken.com/life_balance][landing site]].
+
+I think the game failed financially because I didn't promote it. Now there are multiple games with similar gameplay. But at the time there were none.
+
+The song used in the web version of the game is from [[https://www.youtube.com/watch?v=ZbfVobWjNXo][Zephyr Deer]].
+
+Backlog:
+
+- Stop paying for *thoughtkran.com* host name use *badykov.com*
+
+- Migrate landing to Github Pages or Nerlify

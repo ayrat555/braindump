@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       B08DF289-F2C7-4888-9941-5915DE01FEC5
+:END:
+#+title: ExABI
+#+filetags: :oss:elixir:ethereum:
+
+[[https://github.com/poanetwork/ex_abi][ExABI]] - the ABI encoding implementation for Elixir.
+
+It's used for communication with Ethereum smart contracts.
+
+The specification can be found in [[https://docs.soliditylang.org/en/v0.8.7/abi-spec.html][Solidity docs]]

@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       07B9A37D-783A-4BCC-B39B-9EB989E111DC
+:END:
+#+title: Ethereum Virual Machine
+#+filetags: :public::ethereum:elixir
+
+[[https://ethereum.org/en/developers/docs/evm/][EVM]] is a virtual machine used in Ethereum based blockchains.
+
+High-level smart contract languages (Solidity) are compiled to the EVM bytecode.
+
+Formal spec can be found in the [[id:34348C9B-ECF0-45FA-9DB9-E5632F81AE5D][Ethereum Yellow Paper]].

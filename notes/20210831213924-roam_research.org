@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       931C6E34-F627-41DC-879E-F30AB53D5276
+:END:
+#+title: Roam research
+#+tiletags: :notes:
+
+[[https://roamresearch.com/][Roam research]] is one of the first popular note taking tools for organizing personal thoughts and personal knowledge management.
+
+The system is similar to [[id:1CE3E674-C06C-4879-BDE6-6C5D3150B051][Zettelkasten]]

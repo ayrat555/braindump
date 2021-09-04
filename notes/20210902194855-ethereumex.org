@@ -1,0 +1,20 @@
+:PROPERTIES:
+:ID:       DCE998DD-B1BE-4739-92D6-B03F30D12ED9
+:END:
+#+title: Ethereumex
+#+filetags: :ethereum:oss:elixir:public:
+
+[[https://github.com/mana-ethereum/ethereumex][Ethereumex]] - Elixir JSON-RPC client for the Ethereum blockchain
+
+Key features:
+
+- Supports IPC and HTTP
+
+- Batch requests
+
+- Custom RPC calls
+
+- Complete wrapper for Ethereum API
+
+
+It was my first Ethereum related library. I wrote the first version over one weekend.

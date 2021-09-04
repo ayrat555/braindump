@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       8780BBBC-EFD4-4432-8C69-EA1B81CD935B
+:END:
+#+title: Setting shortcuts for mac os
+#+filetags: :productivity:shortcuts:macos:
+https://github.com/deseven/icanhazshortcut

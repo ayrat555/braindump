@@ -1,7 +1,6 @@
 +++
 title = "Create new cargo package for emacs"
 author = ["Бадыков Айрат"]
-lastmod = 2021-08-31T18:23:45+03:00
 draft = false
 +++
 

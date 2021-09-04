@@ -1,0 +1,58 @@
+:PROPERTIES:
+:ID:       4CF13259-E789-4627-8E9A-B2FE8A7A2194
+:END:
+#+title: My projects
+#+filetags: :oos:public:
+
+* [[id:57E3FAAB-E860-413D-A285-0C7077C5EDBE][Rust]]
+
+- [[id:BFF68ECC-6096-40BE-B6D6-9FA5AA1F62A1][El Monitorro]] - Telegram bot for reading feeds in Rust
+
+- [[id:02FBC785-4C3F-4C0C-A7CB-19A70ABCA0F7][Fang]] - Background processing library in Rust
+
+- [[id:D996B666-5914-48B7-AB99-7FA2216BFC18][Frankenstein]] - Telegram client for Rust
+
+- [[id:95D0904C-8376-431F-AF05-1A0CA8AAA688][Cronenberg]] - Simple cron command entry parser in Rust
+
+* Elixir
+
+- [[id:F792CA3D-6091-4AB6-9F6C-B5AF3FDF0084][Mana]] - Ethereum implementation in Elixir
+
+- [[id:E46C2BFA-B135-4619-9A17-1ABDED090427][Blockscout]] - Ethereum explorer
+
+- [[id:39D1BBE6-0ED5-4CBD-81A8-3D81B1565BFA][ExRLP]] - Elixir implementation of Ethereum's RLP (Recursive Length Prefix) encoding
+
+- [[id:B08DF289-F2C7-4888-9941-5915DE01FEC5][ExABI]] - The Application Binary Interface (ABI) of Solidity for Elixir
+
+- [[id:62B890A0-F425-4A7F-AA3D-77B0C04D22D1][ExSecp256k1]] - Libsecp256k1 NIF
+
+- [[id:DCE998DD-B1BE-4739-92D6-B03F30D12ED9][Ethereumex]] - Elixir JSON-RPC client for the Ethereum blockchain
+
+- [[id:3E888A8E-CCFF-4F38-ACBA-9287816852CE][BN]] - BN128 elliptic curve operations for Elixir.
+
+- [[id:E8BFBE5E-3D3E-49DF-A1B8-1E05F62EC96F][Hornet]] - Simple library for stress testing
+
+- [[https://github.com/ayrat555/clope][CLOPE]] - Elixir implementation of CLOPE
+
+   A Fast and Effective Clustering Algorithm for Transactional Data
+
+- [[https://github.com/ayrat555/rock][ROCK]] - Elixir implementation of ROCK
+
+    A Robust Clustering Algorithm for Categorical Attributes
+
+- [[https://github.com/ayrat555/eth_bloom][EthBloom]] - Ethereum's bloom filter implementation in elixir, integrated in Mana
+
+- [[https://github.com/CryptoHamsters/uploadcare_ex][UploadcareEx]] - Simple Elixir wrapper for Uploadcare API
+
+- [[https://github.com/BalalaikaIndustries/balalaika_bear][BalalaikaBear]] - VK API wrapper for Elixir
+
+- [[https://github.com/ayrat555/ex_riak_cs][ExRiakCS]] - Riak CS API wrapper for Elixir
+
+* [[id:13C6A138-2ECE-4E84-9340-1EABF64ECD42][My emacs projects]]
+
+* Games
+
+-   [[id:FC7C90D3-8FCB-47BA-B1CD-30F796E3BF81][Life Balance]]
+
+
+If you like my work, consider [[id:5FBA586F-D761-4142-BE87-480BDD29748A][donating]]

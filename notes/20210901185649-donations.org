@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       5FBA586F-D761-4142-BE87-480BDD29748A
+:END:
+#+title: Donations
+#+filetags: :resources:
+
+I accept donations with:
+
+- [[https://paypal.me/ayrat555][PayPal]]
+- [[https://github.com/sponsors/ayrat555][GitHub]]

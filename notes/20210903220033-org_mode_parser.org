@@ -1,0 +1,15 @@
+:PROPERTIES:
+:ID:       040ABB8A-9634-427F-B41F-FD238D8EE010
+:END:
+#+title: Org mode parser in Rust
+#+filetags: :oos:public:rust:
+
+[[id:BA8CAFC9-6132-4761-BAFB-EF05C5C3306A][Org Mode]] is one of the best things in Emacs.
+
+But there are a lot of situations when I want to export org mode files into a different format.
+
+For example, I want to create a custom exporter of my [[id:695E8B9A-73D7-4D3F-89F2-5D11D1BA2A61][Org-Roam]] notes into [[id:DA3661CB-35B7-4CB2-B4C9-63505168E5B7][My braindump]].
+
+There are a couple of projects but they're not complete:
+- [[https://github.com/PoiScript/orgize][orgize]]
+- [[https://github.com/org-rs/org-rs][org-rs]]

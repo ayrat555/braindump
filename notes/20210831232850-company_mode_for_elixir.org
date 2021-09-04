@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       B091D81F-5D6E-4B03-9889-7D8BAB6F440B
+:END:
+#+title: Company-elixir
+#+filetags: :emacs:oss:
+
+[[https://github.com/ayrat555/company-elixir][company-elixir]] is a [[https://github.com/company-mode/company-mode][company-mode]] completion backend for Elixir.
+
+It uses a separate IEx (Elixir's interactive shell) process to fetch completions from.
+
+I abandoned this project but it can be used as a reference for [[https://www.badykov.com/emacs/2020/05/05/async-company-mode-backend/][async company backends]].

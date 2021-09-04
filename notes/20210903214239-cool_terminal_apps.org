@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       0CE640EC-E5FB-4A95-A1CD-8EE123C06C0C
+:END:
+#+title: Cool terminal apps
+#+filetags: :terminal:productivity:
+* Task management
+
+- [[id:03D30477-7707-4E62-BB6C-D29EE5F1534D][Taskwarrior]]
+
+* [[id:0BA29FD0-14E4-4EE7-9858-6B34923FF318][Terminal navigation]]

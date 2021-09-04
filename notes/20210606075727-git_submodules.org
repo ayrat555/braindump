@@ -1,0 +1,15 @@
+:PROPERTIES:
+:ID:       36DF272F-E9C0-49B8-A5C3-01BDFE6288FF
+:END:
+#+title: Git Submodules
+#+filetags: :productivity:git:
+
+* Deleting submodule
+
+ - Delete the relevant section from the .gitmodules file.
+ - Stage the .gitmodules changes git add .gitmodules
+ - Delete the relevant section from .git/config.
+ - Run git rm --cached path_to_submodule (no trailing slash).
+ - Run rm -rf .git/modules/path_to_submodule (no trailing slash).
+ - Commit git commit -m "Removed submodule "
+ - Delete the now untracked submodule files rm -rf path_to_submodule

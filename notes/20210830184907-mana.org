@@ -1,0 +1,18 @@
+:PROPERTIES:
+:ID:       F792CA3D-6091-4AB6-9F6C-B5AF3FDF0084
+:END:
+#+title: Mana
+#+filetags: :elixir:oos:ethereum:public:
+
+[[https://github.com/mana-ethereum/mana][Mana]] - Ethereum node implementation in Elixir.
+
+It was started as a hobby project. But after it got some attention from the community (POA Network) I've started working on it full time.
+
+I've worked on it with a good team of developers for almost a year. Now it's abandoned but it can be used as a reference.
+
+
+Related projects:
+- [[id:39D1BBE6-0ED5-4CBD-81A8-3D81B1565BFA][ExRLP]]
+- [[id:B08DF289-F2C7-4888-9941-5915DE01FEC5][ExABI]]
+- [[id:3E888A8E-CCFF-4F38-ACBA-9287816852CE][BN]]
+- [[id:62B890A0-F425-4A7F-AA3D-77B0C04D22D1][ExSecp256k1]]

@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       C14C4879-9D61-4CAB-8882-AB2A5C0C883C
+:END:
+#+title: Note taking
+#+filetags: :blog_post_idea:blog:post:
+
+Create a post about my note taking routines:
+- org-roam
+- todos
+- project todos
+- habits
+- captures
+- org journal

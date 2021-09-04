@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       13C6A138-2ECE-4E84-9340-1EABF64ECD42
+:END:
+#+title: My emacs projects
+#+filetags: :oos:public:
+
+- [[id:A4CC38CE-3B82-482A-8A10-73580CA088C2][Mix.el]] - minor mode for mix (elixir)
+
+- [[id:1C75109C-5D7A-46E4-A8FB-3C31B260ED5A][Cargo-mode]] - minor mode for cargo (rust)
+
+- [[id:B091D81F-5D6E-4B03-9889-7D8BAB6F440B][Company-elixir]] - company-mode backend for Elixir

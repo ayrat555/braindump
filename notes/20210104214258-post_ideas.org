@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       45598DF5-ED73-446A-8207-ADC489BAFEDA
+:END:
+#+title: Post ideas
+#+filetags: :post:blog_post_idea:
+- [[id:659EDAF8-204B-4888-9FC5-5989B2F9AC91][Post about performance testing with datadog]]
+- [[id:C14C4879-9D61-4CAB-8882-AB2A5C0C883C][Note taking]]

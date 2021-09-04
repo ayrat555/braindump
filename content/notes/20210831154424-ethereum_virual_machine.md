@@ -1,7 +1,6 @@
 +++
 title = "Ethereum Virual Machine"
 author = ["Бадыков Айрат"]
-lastmod = 2021-08-31T23:34:54+03:00
 draft = false
 +++
 

@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       673EC016-A4EA-434B-AEE5-C5901F18EEC9
+:END:
+#+title: Amethyst
+#+filetags: :rust:amethyst:
+
+* Resources to learn:
+** Rogue like book
+   - https://github.com/amethyst/rustrogueliketutorial
+
+** Amethyst book
+   - https://book.amethyst.rs/book/stable/concepts/system

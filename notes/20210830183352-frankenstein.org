@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       D996B666-5914-48B7-AB99-7FA2216BFC18
+:END:
+#+title: Frankenstein
+#+filetags: :rust:hobby_project:public:
+
+[[https://github.com/ayrat555/frankenstein][Frankenstein]] is a telegram client written Rust.
+
+Key features:
+
+- Simplicity
+- Small number of dependencies
+- Http client can be replaced with any library

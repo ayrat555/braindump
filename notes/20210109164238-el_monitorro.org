@@ -1,0 +1,56 @@
+:PROPERTIES:
+:ID:       BFF68ECC-6096-40BE-B6D6-9FA5AA1F62A1
+:END:
+#+title: El Monitorro
+#+filetags: :rust:hobby_project:public:
+
+[[https://github.com/ayrat555/el_monitorro][El Monitorro]] is a telegram bot for reading  RSS, Atom and JSON feeds. It's written in Rust.
+
+* Key features:
+
+- High performance.
+
+  All processing is done with [[id:02FBC785-4C3F-4C0C-A7CB-19A70ABCA0F7][Fang]]
+
+- Filters - users can provide key words he wants to subscribe to
+
+- Templates - users can set a format of messages
+
+  Currently, it's implemented using handlebars. And UX can be improved
+
+A couple of channels created with this bot:
+
+- https://t.me/emacs_posts - Emacs News and Posts
+- https://t.me/metacritic_tv - Latest Tv Show Metascores on Metacritic
+
+The libraries I wrote for this project:
+
+- [[id:02FBC785-4C3F-4C0C-A7CB-19A70ABCA0F7][Fang]]
+- [[id:D996B666-5914-48B7-AB99-7FA2216BFC18][Frankenstein]]
+
+* Backlog
+
+- Update readme and release a new version of the bot on dockerhub
+- Update env variables
+
+* Potential features / improvements
+
+- Limit the number of superfast feeds
+
+- Exponential backoff for failed feeds
+
+- Do not upsert feeds items on every sync
+ (compare the last fetched item and item in the db)
+
+- Instead of syncing every feed periodically sync the earliest feeds.
+
+- Use handlebars directly for templates
+
+  UX for templates can be improved
+- Add good looking landing site
+
+  https://www.getzola.org/themes/juice/
+- Allow users to set their bot token
+
+  Bot hits telegram rate limit.
+   https://t.me/el_monitorro_news/3

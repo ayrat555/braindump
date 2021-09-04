@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       3D69DB01-8604-46C3-9E75-C6653BB17B95
+:END:
+#+title: Postgres in Alpine
+#+filetags: :docker:work:postgres:
+
+It seems postgres library is broken in alpine.
+
+I was trying to use alpine for el_monitorro docker image.
+`diesel` commands were failing with segmentation errors
+
+Related links:
+- https://github.com/diesel-rs/diesel/issues/700

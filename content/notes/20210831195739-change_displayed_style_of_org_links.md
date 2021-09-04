@@ -1,7 +1,6 @@
 +++
 title = "Changing displayed style of org links"
 author = ["Бадыков Айрат"]
-lastmod = 2021-08-31T20:31:03+03:00
 draft = false
 +++
 

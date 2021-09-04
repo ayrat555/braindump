@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       1C75109C-5D7A-46E4-A8FB-3C31B260ED5A
+:END:
+#+title: Cargo-mode
+#+filetags: :emacs:productivity:
+
+[[https://github.com/ayrat555/cargo-mode][cargo-mode]] - Emacs minor mode which allows to dynamically select a Cargo command.
+
+Cargo is the [[id:57E3FAAB-E860-413D-A285-0C7077C5EDBE][Rust]] package manager.

@@ -1,0 +1,16 @@
+:PROPERTIES:
+:ID:       1CE3E674-C06C-4879-BDE6-6C5D3150B051
+:END:
+#+title: Zettelkasten
+#+filetags: :notes:
+
+[[https://en.wikipedia.org/wiki/Zettelkasten][Zettelkasten]] is a note-taking and personal knowledge management method
+
+Tools that implement this method:
+
+- [[id:695E8B9A-73D7-4D3F-89F2-5D11D1BA2A61][Org-Roam]] - [[id:51C4735C-BCF0-4C71-A917-700D8AC71253][Emacs]] package. Uses [[id:BA8CAFC9-6132-4761-BAFB-EF05C5C3306A][org-mode]] files
+- [[id:931C6E34-F627-41DC-879E-F30AB53D5276][Roam research]] - Commercial note taking tool
+- [[https://obsidian.md/][Obsidian]] - Commercial note taking tool but it uses markdown files. So users can keep their notes
+
+
+You can check ideas behind Zettelkasten in [[https://www.badykov.com/common/2021/03/28/org-roam/][my blog post]]

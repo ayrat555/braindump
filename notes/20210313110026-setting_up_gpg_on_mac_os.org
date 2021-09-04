@@ -1,0 +1,42 @@
+:PROPERTIES:
+:ID:       185C0D45-EF33-4A6B-9946-61B2F4D231F2
+:END:
+#+title: Setting up gpg on mac os
+#+filetags: :tweaks:git:
+
+
+* Install gpg2 and pinentry-mac:
+
+     #+BEGIN_SRC bash
+     brew install gnupg
+     brew install pinentry-mac
+     #+END_SRC
+
+* Generating a GPG key
+
+     #+BEGIN_SRC bash
+     #Generating key
+     gpg --full-generate-key
+     #Checking my key
+     gpg --list-secret-keys --keyid-format LONG
+     #Copying key
+     gpg --armor --export 3AA5C34371567BD2
+     # Setting key for git
+     git config --global user.signingkey 3AA5C34371567BD2
+     #+END_SRC
+
+* UI for gpg password
+
+pinentry-program /usr/local/bin/pinentry-mac
+
+     #+BEGIN_SRC bash
+     nano .gnupg/gpg-agent.conf
+     # insert into gpg-agent
+     pinentry-program /usr/local/bin/pinentry-mac
+     # restart agent
+     gpgconf --kill gpg-agent
+     #+END_SRC
+
+
+
+https://medium.com/@jma/setup-gpg-for-git-on-macos-4ad69e8d3733

@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       A4CC38CE-3B82-482A-8A10-73580CA088C2
+:END:
+#+title: Mix.el
+#+filetags: :emacs:
+
+[[https://github.com/ayrat555/mix.el][mix.el]] - Emacs Minor Mode for Mix, a build tool that ships with Elixir.
+
+Key features:
+
+- Dynamically load all available mix tasks
+- Can execute a mix task from inside of a subproject in the umbrella project
