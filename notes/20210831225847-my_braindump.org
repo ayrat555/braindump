@@ -25,13 +25,17 @@
 
 - Add analytics
 
-- Add a list of my posts
-
 - Add README to the Repo
 
 * Thoughts:
 
 - Should I dump (:]) by braindump weekly ?
+
+* Content
+
+- Add a list of my posts
+- Add a list with blockchains that I've worked with with their key features
+
 
 
 * Good looking braindumps from other people:

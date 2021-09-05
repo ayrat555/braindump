@@ -2,7 +2,7 @@
 :ID:       07B9A37D-783A-4BCC-B39B-9EB989E111DC
 :END:
 #+title: Ethereum Virual Machine
-#+filetags: :public::ethereum:elixir
+#+filetags: :public:ethereum:elixir
 
 [[https://ethereum.org/en/developers/docs/evm/][EVM]] is a virtual machine used in Ethereum based blockchains.
 

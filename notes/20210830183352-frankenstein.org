@@ -11,3 +11,8 @@ Key features:
 - Simplicity
 - Small number of dependencies
 - Http client can be replaced with any library
+
+
+Backlog:
+
+- Think about separating objects.rs and api_params.rs into separate files for each struct

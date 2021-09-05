@@ -14,6 +14,6 @@ The only disappointment for me is its logo
 
 * Thoughts
 
-  - It seems there is no complete parser for org-mode files ( [[id:040ABB8A-9634-427F-B41F-FD238D8EE010][Org mode parser in Rust]] ).
+  - It seems there are no complete parsers for org-mode files ( [[id:040ABB8A-9634-427F-B41F-FD238D8EE010][Org mode parser in Rust]] ).
 
     It would be nice to have it. For example, I want to create a custom generator of hugo files for [[id:DA3661CB-35B7-4CB2-B4C9-63505168E5B7][my braindump]]. Because ox-hugo is not very performant

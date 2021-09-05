@@ -39,9 +39,6 @@ The libraries I wrote for this project:
 
 - Exponential backoff for failed feeds
 
-- Do not upsert feeds items on every sync
- (compare the last fetched item and item in the db)
-
 - Instead of syncing every feed periodically sync the earliest feeds.
 
 - Use handlebars directly for templates
@@ -54,3 +51,12 @@ The libraries I wrote for this project:
 
   Bot hits telegram rate limit.
    https://t.me/el_monitorro_news/3
+
+* Finished tasks
+
+- Do not upsert feeds items on every sync
+ (compare the last fetched item and item in the db)
+
+ [2021-09-05 Sun]
+
+ [[https://github.com/ayrat555/el_monitorro/commit/87f31c00fe9a1d95d8ed2d89306ce8412b3adfbc][commit]]

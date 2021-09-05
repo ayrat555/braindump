@@ -1,11 +1,17 @@
 :PROPERTIES:
 :ID:       65207E88-20BB-4BA6-93D8-54E5542CD5D3
 :END:
-#+title: Learning Rust
+#+title: Resources for learning Rust
 #+filetags: :career:rust:
-* Steps
-** Re-read Rust book
+
+- Rust book
+
    https://doc.rust-lang.org/book/
    https://doc.rust-lang.org/reference/index.html
-** Create a hobby project
-** Re-write Cronenberg
+
+-  Beginner's Series to Rust from Microsoft
+
+   https://github.com/microsoft/beginners-series-rust
+
+
+Some guides are listed in this [[https://loige.co/where-to-go-to-learn-rust-in-2021/][post]].
