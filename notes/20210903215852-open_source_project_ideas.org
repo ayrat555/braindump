@@ -9,3 +9,4 @@ Here you can find a list of projects that I want to develop but apparently don't
 Feel free to pick / steal anything from this list.
 
 - [[id:040ABB8A-9634-427F-B41F-FD238D8EE010][Org mode parser]]
+- [[id:5397C9E7-0D7C-4C15-B7DE-41FF8481ED4C][HD wallets for Elixir]]

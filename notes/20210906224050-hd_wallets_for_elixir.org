@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       5397C9E7-0D7C-4C15-B7DE-41FF8481ED4C
+:END:
+#+title: HD wallets for Elixir
+#+filetags: :oss:public:elixir:crypto
+
+[[https://en.bitcoin.it/wiki/Deterministic_wallet#Type_2:_Hierarchical_deterministic_wallet][Hierarchical deterministic wallet]] is a wallet that may generate a new key pair from a master key pair for each crypto transaction to enhance privacy and security.
+
+There is already [[https://github.com/KamilLelonek/ex_wallet][an implementation for bitcoin]]. But it seems not maintained. Also it doesn't support related chains like Dogecoin.
