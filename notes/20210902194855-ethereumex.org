@@ -18,3 +18,8 @@ Key features:
 
 
 It was my first Ethereum related library. I wrote the first version over one weekend.
+
+
+* Backlog
+
+  - check if new methods are added

@@ -52,6 +52,10 @@ The libraries I wrote for this project:
   Bot hits telegram rate limit.
    https://t.me/el_monitorro_news/3
 
+- Add cli
+
+- Decrease docker image size by using builder
+
 * Finished tasks
 
 - Do not upsert feeds items on every sync

@@ -22,3 +22,5 @@ Key attribures:
 - Find a way to get rid of typetag
 
   https://github.com/dtolnay/typetag/issues/35
+
+- Investigate the issue when scheduled task is too old
