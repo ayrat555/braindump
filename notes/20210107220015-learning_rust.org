@@ -9,9 +9,13 @@
    https://doc.rust-lang.org/book/
    https://doc.rust-lang.org/reference/index.html
 
--  Beginner's Series to Rust from Microsoft
+- Beginner's Series to Rust from Microsoft
 
-   https://github.com/microsoft/beginners-series-rust
+  https://github.com/microsoft/beginners-series-rust
+
+- https://www.youtube.com/c/JonGjengset
+
+  [[https://www.youtube.com/watch?v=ThjvMReOXYM][async/await from JonGjengset]]
 
 
 Some guides are listed in this [[https://loige.co/where-to-go-to-learn-rust-in-2021/][post]].

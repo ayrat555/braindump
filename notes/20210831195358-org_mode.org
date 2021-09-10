@@ -8,10 +8,6 @@
 
 The only disappointment for me is its logo
 
-* Tweaks
-
-  - [[id:D1C14A02-3B6F-4B16-9095-830E77352651][Change displayed style of org links]]
-
 * Thoughts
 
   - It seems there are no complete parsers for org-mode files ( [[id:040ABB8A-9634-427F-B41F-FD238D8EE010][Org mode parser in Rust]] ).

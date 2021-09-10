@@ -1,0 +1,15 @@
+:PROPERTIES:
+:ID:       715C0E8A-0554-48E3-AA20-08E73C8A06CE
+:END:
+#+title: Line wrapping in compilation-mode buffers
+#+filetags: :emacs:
+
+Add the following hook to the compilation mode to wrap long lines in compilation buffers
+
+
+     #+BEGIN_SRC elisp
+(defun truncate-compilation-mode-hook ()
+  (setq truncate-lines nil)
+  (set (make-local-variable 'truncate-partial-width-windows) nil))
+(add-hook 'compilation-mode-hook 'truncate-compilation-mode-hook)
+     #+END_SRC

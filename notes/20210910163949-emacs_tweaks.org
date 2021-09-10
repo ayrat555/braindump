@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       9E08E9F9-8A29-4F21-B399-CD308ED43202
+:END:
+#+title: Emacs Tweaks
+#+filetags: :emacs:orgmode
+
+
+  - [[id:D1C14A02-3B6F-4B16-9095-830E77352651][Change displayed style of org links]]
+  - [[id:715C0E8A-0554-48E3-AA20-08E73C8A06CE][Line wrapping in compilation-mode buffers]]
