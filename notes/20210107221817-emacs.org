@@ -20,6 +20,8 @@ The only problem I have with Emacs is it drains my free time :)
 
 I wrote several [[id:13C6A138-2ECE-4E84-9340-1EABF64ECD42][emacs packages]]
 
+* [[id:9E08E9F9-8A29-4F21-B399-CD308ED43202][Emacs Tweaks]]
+
 * My emacs configuration backlog:
 
 - Start emacs server on macos boot
