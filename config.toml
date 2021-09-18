@@ -1,6 +1,6 @@
 baseURL = "https://braindump.badykov.com/"
 languageCode = "en-us"
-title = "Airat's Braindump"
+title = "Ayrat's Braindump"
 theme = "cortex-dark"
 pygmentsStyle = "dracula"
 
