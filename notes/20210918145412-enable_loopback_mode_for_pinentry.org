@@ -1,0 +1,17 @@
+:PROPERTIES:
+:ID:       EC5D6348-E872-4211-BBBC-712D2E09D1F2
+:END:
+#+title: Enable loopback mode for pinentry
+#+filetags: :emacs:git:magit:
+
+To be able to use gpg commit signing with emacs running in terminal, pinentry loopback mode should be enabled for gpg agent.
+
+1. Add *pinentry-mode loopback* to *~/.gnupg/gpg.conf*
+2. Add *allow-loopback-entry* to *~/.gnupg/gpg-agent.conf*
+3. Reload the agent: *gpgconf --reload gpg-agent*
+
+References:
+
+- [[https://unix.stackexchange.com/a/655819][stackoverflow answer]]
+- [[https://www.fluidkeys.com/tweak-gpg-2.1.11/][random blog post]]
+  site seems abandoned so the link may not be accessible by the time you're reading this

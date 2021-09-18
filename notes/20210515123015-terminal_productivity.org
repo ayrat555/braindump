@@ -11,3 +11,5 @@
 * zoxide - dir navigation
 
   https://github.com/ajeetdsouza/zoxide
+
+* [[id:6094B155-1BF8-477D-B65E-E53C687B187C][tmux]]

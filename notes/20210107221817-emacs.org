@@ -16,7 +16,7 @@ You can check out [[https://www.badykov.com/emacs/2018/07/31/why-emacs-is-a-grea
 
 My emacs config can be found in [[https://github.com/ayrat555/dot-emacs][the github repo]]
 
-The only problem I have with Emacs is it drains my free time :)
+The only problem I have with Emacs is it drains my [[id:F9AF4505-79F3-4342-B0B2-14979760CD0F][free time]] :)
 
 I wrote several [[id:13C6A138-2ECE-4E84-9340-1EABF64ECD42][emacs packages]]
 
@@ -38,8 +38,6 @@ I wrote several [[id:13C6A138-2ECE-4E84-9340-1EABF64ECD42][emacs packages]]
 
 - Try org-super-agenda
    https://github.com/alphapapa/org-super-agenda
-
-
 
 - Check https://github.com/progfolio/doct
 

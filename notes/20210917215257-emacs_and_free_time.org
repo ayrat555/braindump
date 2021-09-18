@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       F9AF4505-79F3-4342-B0B2-14979760CD0F
+:END:
+#+title: Emacs and free time
+#+filetags: :emacs:
+
+Emacs and Org-Mode are great things. But you may lose days and months configuring them and looking for best practices (org-mode).
+
+But I have a feeling it may pay off eventually:
+
+- In case of Emacs, you'll save time if you learn your keybindings
+- In case of org-mode, you'll be more organized and productive
+
+At least it's my excuse to dive into them every time. But I saw a couple of posts where people say they don't have time for Emacs as they become older.

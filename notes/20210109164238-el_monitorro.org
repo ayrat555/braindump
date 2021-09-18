@@ -37,8 +37,6 @@ The libraries I wrote for this project:
 
 - Limit the number of superfast feeds
 
-- Exponential backoff for failed feeds
-
 - Instead of syncing every feed periodically sync the earliest feeds.
 
 - Use handlebars directly for templates
@@ -54,7 +52,7 @@ The libraries I wrote for this project:
 
 - Add cli
 
-- Decrease docker image size by using builder
+
 
 * Finished tasks
 
@@ -64,3 +62,16 @@ The libraries I wrote for this project:
  [2021-09-05 Sun]
 
  [[https://github.com/ayrat555/el_monitorro/commit/87f31c00fe9a1d95d8ed2d89306ce8412b3adfbc][commit]]
+
+
+- Exponential backoff for failed feeds
+
+  [2021-09-11 Sat]
+
+  [[https://github.com/ayrat555/el_monitorro/pull/155][pr]]
+
+- Decrease docker image size by using builder
+
+  [2021-09-12 Sun]
+
+  [[https://github.com/ayrat555/el_monitorro/commit/c93b02233bff8adeed77ffe32f2a5215006ac108][commit]]
