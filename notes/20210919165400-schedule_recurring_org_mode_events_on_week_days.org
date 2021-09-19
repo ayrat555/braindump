@@ -6,13 +6,13 @@
 
 To schedule your recurring events skipping weekends use:
 
-#+BEGIN_SRC
-* Morning meeting
-SCHEDULED: <2021-09-20 Mon ++1w>
-SCHEDULED: <2021-09-21 Tue ++1w>
-SCHEDULED: <2021-09-22 Wed ++1w>
-SCHEDULED: <2021-09-23 Thu ++1w>
-SCHEDULED: <2021-09-24 Fri ++1w>
+#+BEGIN_SRC bash
+- * Morning meeting
+- SCHEDULED: <2021-09-20 Mon ++1w>
+- SCHEDULED: <2021-09-21 Tue ++1w>
+- SCHEDULED: <2021-09-22 Wed ++1w>
+- SCHEDULED: <2021-09-23 Thu ++1w>
+- SCHEDULED: <2021-09-24 Fri ++1w>
 #+END_SRC
 
 [[https://stackoverflow.com/questions/28369833/emacs-org-mode-repeat-tasks-m-f-but-not-weekends][stackoverflow question]]
