@@ -2,7 +2,7 @@
 :ID:       1CE3E674-C06C-4879-BDE6-6C5D3150B051
 :END:
 #+title: Zettelkasten
-#+filetags: :notes:
+#+filetags: :notes:braindump:
 
 [[https://en.wikipedia.org/wiki/Zettelkasten][Zettelkasten]] is a note-taking and personal knowledge management method
 

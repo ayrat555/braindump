@@ -2,7 +2,7 @@
 :ID:       5FBA586F-D761-4142-BE87-480BDD29748A
 :END:
 #+title: Donations
-#+filetags: :resources:
+#+filetags: :resources:braindump:
 
 I accept donations with:
 

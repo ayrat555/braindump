@@ -2,7 +2,7 @@
 :ID:       DA3661CB-35B7-4CB2-B4C9-63505168E5B7
 :END:
 #+title: My braindump
-#+filetags: :notes:
+#+filetags: :notes:braindump:
 
 [[https://braindump.badykov.com/about/][My Braindump]] is generated with [[https://github.com/kaushalmodi/ox-hugo][ox-hugo]] from my [[id:695E8B9A-73D7-4D3F-89F2-5D11D1BA2A61][Org-Roam]] notes. The current idea for it is to be my personal knowledge system.
 

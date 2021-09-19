@@ -2,7 +2,7 @@
 :ID:       4CF13259-E789-4627-8E9A-B2FE8A7A2194
 :END:
 #+title: My projects
-#+filetags: :oos:public:
+#+filetags: :oos:public:braindump:
 
 * [[id:57E3FAAB-E860-413D-A285-0C7077C5EDBE][Rust]]
 

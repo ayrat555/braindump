@@ -2,7 +2,7 @@
 :ID:       E444BD6C-0BEA-429A-8142-2ED63448FC6A
 :END:
 #+title: My Blog
-#+filteags: :resources:
+#+filteags: :resources:braindump:
 
 [[https://www.badykov.com/][My blog]] is hosted on [[https://github.com/ayrat555/ayrat555.github.io][github pages]] and it uses [[https://jekyllrb.com/][Jekyll]]. I started writing posts for it in the October of 2017.
 

@@ -2,7 +2,7 @@
 :ID:       185C0D45-EF33-4A6B-9946-61B2F4D231F2
 :END:
 #+title: Setting up gpg on mac os
-#+filetags: :tweaks:git:
+#+filetags: :tweaks:git:braindump:
 
 
 * Install gpg2 and pinentry-mac:

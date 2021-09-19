@@ -2,7 +2,7 @@
 :ID:       E8BFBE5E-3D3E-49DF-A1B8-1E05F62EC96F
 :END:
 #+title: Hornet
-#+filetags: :oos:public:elixir:
+#+filetags: :oos:public:elixir:braindump:
 
 [[https://github.com/ayrat555/hornet][Hornet]] is an Elixir library for stress testing.
 

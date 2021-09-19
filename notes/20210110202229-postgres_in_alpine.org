@@ -2,7 +2,7 @@
 :ID:       3D69DB01-8604-46C3-9E75-C6653BB17B95
 :END:
 #+title: Postgres in Alpine
-#+filetags: :docker:work:postgres:
+#+filetags: :docker:work:postgres:braindump:
 
 It seems postgres library is broken in alpine.
 

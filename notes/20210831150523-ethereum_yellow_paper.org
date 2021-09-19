@@ -2,7 +2,7 @@
 :ID:       34348C9B-ECF0-45FA-9DB9-E5632F81AE5D
 :END:
 #+title: Ethereum Yellow Paper
-#+filetags: :ethereum:
+#+filetags: :ethereum:braindump:
 
 [[file:docs/ethereum-yellow-paper.pdf][Ethereum Yellow Paper]] is a formal specification of Ethereum protocol.
 

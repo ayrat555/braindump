@@ -2,7 +2,7 @@
 :ID:       30884C9C-7F1E-49EE-B91E-02C599064A1C
 :END:
 #+title: Accessing site variables in Hugo render hooks
-#+filetags: :hugo:
+#+filetags: :hugo:braindump:
 
 To access site variables inside of a [[https://gohugo.io/getting-started/configuration-markup#markdown-render-hooks][Hugo render hook]] it should be prepended with *.Page*.
 

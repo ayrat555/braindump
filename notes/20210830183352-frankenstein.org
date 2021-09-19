@@ -2,7 +2,7 @@
 :ID:       D996B666-5914-48B7-AB99-7FA2216BFC18
 :END:
 #+title: Frankenstein
-#+filetags: :rust:hobby_project:public:
+#+filetags: :rust:hobby_project:public:braindump:
 
 [[https://github.com/ayrat555/frankenstein][Frankenstein]] is a telegram client written Rust.
 

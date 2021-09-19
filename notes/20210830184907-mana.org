@@ -2,7 +2,7 @@
 :ID:       F792CA3D-6091-4AB6-9F6C-B5AF3FDF0084
 :END:
 #+title: Mana
-#+filetags: :elixir:oos:ethereum:public:
+#+filetags: :elixir:oos:ethereum:public:braindump:
 
 [[https://github.com/mana-ethereum/mana][Mana]] - Ethereum node implementation in Elixir.
 

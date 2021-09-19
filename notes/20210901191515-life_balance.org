@@ -2,7 +2,7 @@
 :ID:       FC7C90D3-8FCB-47BA-B1CD-30F796E3BF81
 :END:
 #+title: Life Balance
-#+filetags: :projects:games:
+#+filetags: :projects:games:braindump:
 
 I released a mobile game called "Life Balance" in 2019.
 

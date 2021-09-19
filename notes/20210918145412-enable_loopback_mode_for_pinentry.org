@@ -2,7 +2,7 @@
 :ID:       EC5D6348-E872-4211-BBBC-712D2E09D1F2
 :END:
 #+title: Enable loopback mode for pinentry
-#+filetags: :emacs:git:magit:
+#+filetags: :emacs:git:magit:braindump:
 
 To be able to use gpg commit signing with emacs running in terminal, pinentry loopback mode should be enabled for gpg agent.
 

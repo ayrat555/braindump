@@ -2,7 +2,7 @@
 :ID:       B091D81F-5D6E-4B03-9889-7D8BAB6F440B
 :END:
 #+title: Company-elixir
-#+filetags: :emacs:oss:
+#+filetags: :emacs:oss:braindump:
 
 [[https://github.com/ayrat555/company-elixir][company-elixir]] is a [[https://github.com/company-mode/company-mode][company-mode]] completion backend for Elixir.
 

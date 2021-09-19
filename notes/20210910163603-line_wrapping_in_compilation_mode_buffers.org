@@ -2,7 +2,7 @@
 :ID:       715C0E8A-0554-48E3-AA20-08E73C8A06CE
 :END:
 #+title: Line wrapping in compilation-mode buffers
-#+filetags: :emacs:
+#+filetags: :emacs:braindump:
 
 Add the following hook to the compilation mode to wrap long lines in compilation buffers
 

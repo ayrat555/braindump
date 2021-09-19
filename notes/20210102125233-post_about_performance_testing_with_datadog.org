@@ -2,6 +2,6 @@
 :ID:       659EDAF8-204B-4888-9FC5-5989B2F9AC91
 :END:
 #+title: Post about performance testing with datadog
-#+filetags: :blog_post_idea:blog:post:
+#+filetags: :blog_post_idea:blog:post:braindump:
 
 The work I've done for elixir-omg

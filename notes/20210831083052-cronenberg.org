@@ -2,7 +2,7 @@
 :ID:       95D0904C-8376-431F-AF05-1A0CA8AAA688
 :END:
 #+title: Cronenberg
-#+filetags: :rust:oos:public:
+#+filetags: :rust:oos:public:braindump:
 
 [[https://github.com/ayrat555/cronenberg][Cronenberg]] - cron command entry parser in Rust.
 

@@ -2,7 +2,7 @@
 :ID:       6094B155-1BF8-477D-B65E-E53C687B187C
 :END:
 #+title: tmux
-#+filetags: :productivity:termianl:
+#+filetags: :productivity:termianl:braindump:
 
 [[https://github.com/tmux/tmux][Tmux]] is a terminal multiplexer. It can be used for:
 
@@ -23,5 +23,6 @@ But tmux has a better community support:
 
 
 * Guides
+** [[https://github.com/tmux/tmux/wiki/Getting-Started][Getting Started]]
 ** [[https://www.ocf.berkeley.edu/~ckuehl/tmux/][tmux - a very simple beginner's guide]]
 ** [[https://danielmiessler.com/study/tmux/][Tactical tmux: The 10 Most Important Commands]]

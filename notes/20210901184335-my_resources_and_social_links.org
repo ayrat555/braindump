@@ -2,7 +2,7 @@
 :ID:       1A864921-060E-466A-B39B-80B652028104
 :END:
 #+title: My resources and social links
-#+filetags: :resources:
+#+filetags: :resources:braindump:
 
 I use two resources to write my thoughts:
 

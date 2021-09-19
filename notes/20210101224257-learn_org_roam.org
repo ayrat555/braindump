@@ -3,6 +3,7 @@
 :ID:       11CF6228-7E3A-41AC-AB54-B54A7BFFA8E6
 :END:
 #+title: Learn org-roam
+#+filetags: :braindump:
 
 Blog posts on org-roam:
 - https://notes.alexkehayias.com/org-roam/

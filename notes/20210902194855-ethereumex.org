@@ -2,7 +2,7 @@
 :ID:       DCE998DD-B1BE-4739-92D6-B03F30D12ED9
 :END:
 #+title: Ethereumex
-#+filetags: :ethereum:oss:elixir:public:
+#+filetags: :ethereum:oss:elixir:public:braindump:
 
 [[https://github.com/mana-ethereum/ethereumex][Ethereumex]] - Elixir JSON-RPC client for the Ethereum blockchain
 

@@ -2,7 +2,7 @@
 :ID:       B08DF289-F2C7-4888-9941-5915DE01FEC5
 :END:
 #+title: ExABI
-#+filetags: :oss:elixir:ethereum:
+#+filetags: :oss:elixir:ethereum:braindump:
 
 [[https://github.com/poanetwork/ex_abi][ExABI]] - the ABI encoding implementation for Elixir.
 

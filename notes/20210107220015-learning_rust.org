@@ -2,7 +2,7 @@
 :ID:       65207E88-20BB-4BA6-93D8-54E5542CD5D3
 :END:
 #+title: Resources for learning Rust
-#+filetags: :career:rust:
+#+filetags: :career:rust:braindump:
 
 - Rust book
 

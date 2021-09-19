@@ -2,7 +2,7 @@
 :ID:       695E8B9A-73D7-4D3F-89F2-5D11D1BA2A61
 :END:
 #+title: Org-Roam
-#+filetags: :emacs:notes:
+#+filetags: :emacs:notes:braindump:
 
 [[https://github.com/org-roam/org-roam][org-roam]] is a plain-text knowledge management system. It uses [[id:BA8CAFC9-6132-4761-BAFB-EF05C5C3306A][org-mode]] files. Initiallly, org-roam was developed as a [[id:931C6E34-F627-41DC-879E-F30AB53D5276][Roam research]] clone.
 

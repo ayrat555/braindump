@@ -2,7 +2,7 @@
 :ID:       36DF272F-E9C0-49B8-A5C3-01BDFE6288FF
 :END:
 #+title: Git Submodules
-#+filetags: :productivity:git:
+#+filetags: :productivity:git:braindump:
 
 * Deleting submodule
 

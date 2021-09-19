@@ -2,7 +2,7 @@
 :ID:       03D30477-7707-4E62-BB6C-D29EE5F1534D
 :END:
 #+title: Taskwarrior
-#+filetags: :terminal:productivity:task:
+#+filetags: :terminal:productivity:task:braindump:
 
 [[https://github.com/GothenburgBitFactory/taskwarrior][Taskwarrior]] - is a command line task list manager
 

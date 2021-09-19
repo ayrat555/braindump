@@ -2,7 +2,7 @@
 :ID:       A4CC38CE-3B82-482A-8A10-73580CA088C2
 :END:
 #+title: Mix.el
-#+filetags: :emacs:
+#+filetags: :emacs:braindump:
 
 [[https://github.com/ayrat555/mix.el][mix.el]] - Emacs Minor Mode for Mix, a build tool that ships with Elixir.
 

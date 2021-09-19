@@ -2,7 +2,7 @@
 :ID:       0BA29FD0-14E4-4EE7-9858-6B34923FF318
 :END:
 #+title: Terminal navigation
-#+filetags: :productivity:terminal:
+#+filetags: :productivity:terminal:braindump:
 
 * fzf - command-line fuzzy finder
 

@@ -2,7 +2,7 @@
 :ID:       25F99453-77B1-4761-A2B0-EAE2F19B6716
 :END:
 #+title: Authoritarian rudeness
-#+filetags: :society:theory:
+#+filetags: :society:theory:braindump:
 
 In authoritarian countries people are more rude in communications between each other.
 Maybe it's a root cause of rudeness in Russia?

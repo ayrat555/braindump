@@ -2,7 +2,7 @@
 :ID:       62B890A0-F425-4A7F-AA3D-77B0C04D22D1
 :END:
 #+title: ExSecp256k1
-#+filetags: :oos:elixir:rust:
+#+filetags: :oos:elixir:rust:braindump:
 
 [[https://github.com/omgnetwork/ex_secp256k1][ExSecp256k1]] - Rust Native Implemented Function (NIF) that wraps a couple functions from  [[https://github.com/paritytech/libsecp256k1][the libsecp256k1 Rust library]].
 

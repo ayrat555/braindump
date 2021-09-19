@@ -2,7 +2,7 @@
 :ID:       13C6A138-2ECE-4E84-9340-1EABF64ECD42
 :END:
 #+title: My emacs projects
-#+filetags: :oos:public:
+#+filetags: :oos:public:braindump:
 
 - [[id:A4CC38CE-3B82-482A-8A10-73580CA088C2][Mix.el]] - minor mode for mix (elixir)
 

@@ -2,7 +2,7 @@
 :ID:       E054A9B2-492C-4402-8960-A3892959120A
 :END:
 #+title: Open source project ideas
-#+filetags:  :oos:public:
+#+filetags:  :oos:public:braindump:
 
 Here you can find a list of projects that I want to develop but apparently don't have enough time to do so.
 

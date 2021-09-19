@@ -2,7 +2,7 @@
 :ID:       931C6E34-F627-41DC-879E-F30AB53D5276
 :END:
 #+title: Roam research
-#+tiletags: :notes:
+#+tiletags: :notes:braindump:
 
 [[https://roamresearch.com/][Roam research]] is one of the first popular note taking tools for organizing personal thoughts and personal knowledge management.
 

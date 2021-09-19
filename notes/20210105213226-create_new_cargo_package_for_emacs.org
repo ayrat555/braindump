@@ -2,6 +2,6 @@
 :ID:       F367C276-0267-4881-A99E-B78B18A48937
 :END:
 #+title: Create new cargo package for emacs
-#+filetags: :emacs:open_source:
+#+filetags: :emacs:open_source:braindump:
 
 Current solution (cargo.el) has not optimal keybindings. Also, the killer feature of new library would be selection of cargo task from `completing-read` using `cargo --list`

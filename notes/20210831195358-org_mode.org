@@ -2,7 +2,7 @@
 :ID:       BA8CAFC9-6132-4761-BAFB-EF05C5C3306A
 :END:
 #+title: Org Mode
-#+filetags: :emacs:orgmode
+#+filetags: :emacs:orgmode:braindump:
 
 [[https://orgmode.org/][Org Mode]] is one of the most powerful note taking and planning tools. It uses plain text files in a special markup format.
 

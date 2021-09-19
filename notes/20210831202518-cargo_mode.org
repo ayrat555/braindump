@@ -2,7 +2,7 @@
 :ID:       1C75109C-5D7A-46E4-A8FB-3C31B260ED5A
 :END:
 #+title: Cargo-mode
-#+filetags: :emacs:productivity:
+#+filetags: :emacs:productivity:braindump:
 
 [[https://github.com/ayrat555/cargo-mode][cargo-mode]] - Emacs minor mode which allows to dynamically select a Cargo command.
 

@@ -2,7 +2,7 @@
 :ID:       51C4735C-BCF0-4C71-A917-700D8AC71253
 :END:
 #+title: Emacs
-#+filetags: :emacs:productivity:
+#+filetags: :emacs:productivity:braindump:
 
 Emacs is an (esoteric) text editor. Its key feature is extensibility. Emacs provides Emacs Lisp programming language which is used to write extensions.
 

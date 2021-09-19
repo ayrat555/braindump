@@ -2,7 +2,7 @@
 :ID:       39D1BBE6-0ED5-4CBD-81A8-3D81B1565BFA
 :END:
 #+title: ExRLP
-#+filetags: :ethereum:oos:elixir:public:
+#+filetags: :ethereum:oos:elixir:public:braindump:
 
 [[https://github.com/mana-ethereum/ex_rlp][ExRLP]] - RLP encoding implementation for Elixir
 

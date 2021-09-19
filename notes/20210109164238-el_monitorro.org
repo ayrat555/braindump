@@ -2,7 +2,7 @@
 :ID:       BFF68ECC-6096-40BE-B6D6-9FA5AA1F62A1
 :END:
 #+title: El Monitorro
-#+filetags: :rust:hobby_project:public:
+#+filetags: :rust:hobby_project:public:braindump:
 
 [[https://github.com/ayrat555/el_monitorro][El Monitorro]] is a telegram bot for reading  RSS, Atom and JSON feeds. It's written in Rust.
 

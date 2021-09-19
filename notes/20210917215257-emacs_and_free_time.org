@@ -2,7 +2,7 @@
 :ID:       F9AF4505-79F3-4342-B0B2-14979760CD0F
 :END:
 #+title: Emacs and free time
-#+filetags: :emacs:
+#+filetags: :emacs:braindump:
 
 Emacs and Org-Mode are great things. But you may lose days and months configuring them and looking for best practices (org-mode).
 

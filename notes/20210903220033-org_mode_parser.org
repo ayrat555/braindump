@@ -2,7 +2,7 @@
 :ID:       040ABB8A-9634-427F-B41F-FD238D8EE010
 :END:
 #+title: Org mode parser in Rust
-#+filetags: :oos:public:rust:
+#+filetags: :oos:public:rust:braindump:
 
 [[id:BA8CAFC9-6132-4761-BAFB-EF05C5C3306A][Org Mode]] is one of the best things in Emacs.
 
