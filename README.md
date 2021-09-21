@@ -1,6 +1,6 @@
 # Ayrat's braindump [![Build](https://github.com/ayrat555/braindump/actions/workflows/gh-pages.yml/badge.svg)](https://github.com/ayrat555/braindump/actions/workflows/gh-pages.yml)
 
-This is my personal collection of notes. Check it out at [Ayrat's Braindump](braindump.badykov.com/).
+This is my personal collection of notes. Check it out at [Ayrat's Braindump](https://braindump.badykov.com/).
 
 [cortex-dark](https://github.com/ayrat555/cortex-dark) theme is used for this static site generated with [Hugo](https://gohugo.io/).
 

@@ -30,8 +30,9 @@ The libraries I wrote for this project:
 
 * Backlog
 
-- Update readme and release a new version of the bot on dockerhub
-- Update env variables
+- Use https for docs site
+- Add favicon for docs site
+
 
 * Potential features / improvements
 
@@ -42,16 +43,13 @@ The libraries I wrote for this project:
 - Use handlebars directly for templates
 
   UX for templates can be improved
-- Add good looking landing site
 
-  https://www.getzola.org/themes/juice/
 - Allow users to set their bot token
 
   Bot hits telegram rate limit.
    https://t.me/el_monitorro_news/3
 
 - Add cli
-
 
 
 * Finished tasks
@@ -75,3 +73,11 @@ The libraries I wrote for this project:
   [2021-09-12 Sun]
 
   [[https://github.com/ayrat555/el_monitorro/commit/c93b02233bff8adeed77ffe32f2a5215006ac108][commit]]
+
+- Update readme and release a new version of the bot on dockerhub (version 0.2)
+
+- Update env variables (version 0.2)
+
+- Add good looking landing site
+
+  https://www.getzola.org/themes/juice/

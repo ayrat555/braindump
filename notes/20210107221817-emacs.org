@@ -22,31 +22,6 @@ I wrote several [[id:13C6A138-2ECE-4E84-9340-1EABF64ECD42][emacs packages]]
 
 * [[id:9E08E9F9-8A29-4F21-B399-CD308ED43202][Emacs Tweaks]]
 
-* My emacs configuration backlog:
-
-- Start emacs server on macos boot
-  Creating plist and additing `Library/LaunchAgents` starts two daemons, using just `em ./` starts one daemon
-
-- Set up org-capture shortcuts from anywhere
-   using org-protocol
-
-- Figure out / clean types of notes
-
-   I think content to consume  should only have main type notes, without notes for separate movies etc
-
-- Emacs creates garbage files in home directory
-
-- Try org-super-agenda
-   https://github.com/alphapapa/org-super-agenda
-
-- Check https://github.com/progfolio/doct
-
-- Check https://github.com/manateelazycat/snails
-
-- Fix org-journal agenda for new files
-
-- Make long lines separated in the compilation mode separated
-
 * Backlog for this note
 
 - Add emacs packages that I use
