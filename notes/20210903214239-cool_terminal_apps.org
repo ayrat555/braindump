@@ -9,3 +9,12 @@
 - [[id:03D30477-7707-4E62-BB6C-D29EE5F1534D][Taskwarrior]]
 
 * [[id:0BA29FD0-14E4-4EE7-9858-6B34923FF318][Terminal navigation]]
+
+* Other
+
+- [[https://github.com/Rigellute/spotify-tui][Spotify terminal client]]
+
+  it requires the GUI client. But still it's cool to browse and play spotify from your terminal
+
+* More stufff
+- [[https://github.com/agarrharr/awesome-cli-apps][awesome-cli-apps]] - list of cool cli apps

@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       6A69043D-AFEB-41BA-ACB1-2E1BC140DABB
+:END:
+#+title: Diff with magit
+#+filetags: :braindump:emacs
+
+To diff two branches *magit-diff-range* (C-x g d r)   interactive function can be used
+
+
+* References
+- [[https://magit.vc/manual/magit/Diffing.html][Magit diff docs]]
+- [[https://emacs.stackexchange.com/questions/48111/use-magit-to-display-the-difference-between-two-branches][stackoverlow]]
