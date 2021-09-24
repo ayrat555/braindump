@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       616299E4-B036-4E0D-B67F-75C704715736
+:END:
+#+title: Customzing agenda view
+#+filetags: :braindump:emacs:orgmofr
+
+* Removing file name prefix
+
+By default all todo items are prefixed with a file name.
+
+It's actually not a file name but a category. To show something meaningful instead of a file name, set /#+CATEGORY/ attribute in your org file. For example, /#+CATEGORY: :habit/

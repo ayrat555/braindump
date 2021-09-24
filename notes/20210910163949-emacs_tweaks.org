@@ -9,3 +9,4 @@
   - [[id:715C0E8A-0554-48E3-AA20-08E73C8A06CE][Line wrapping in compilation-mode buffers]]
   - [[id:EC5D6348-E872-4211-BBBC-712D2E09D1F2][Enable loopback mode for pinentry]]
   - [[id:CACB1DBD-E0FD-4225-9ABF-92EC629D0EE1][Schedule recurring org-mode events on week days]]
+  - [[id:616299E4-B036-4E0D-B67F-75C704715736][Customzing agenda view]]
