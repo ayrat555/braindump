@@ -4,6 +4,15 @@
 #+title: Track database changes with ecto and structure.sql
 #+filetags: :braindump:elixir:ecto:phoenix:
 
+* Advantages
+- declarative db structure
+- faster db setup on a clean db (you don't have to run all migrations, you can just apply structure.sql with ecto.load)
+
+* Disadvantage:
+- you have to update structure.sql on every migration
+
+* Steps
+
 Instead of the following (default) alias in mix.exs
 
 #+BEGIN_SRC elixir
@@ -25,9 +34,9 @@ use the following:
     [
       setup: ["deps.get", "ecto.setup", "cmd npm install --prefix assets"],
       "ecto.migrate": ["ecto.migrate", "ecto.dump"],
-      "ecto.setup": ["ecto.create", "ecto.load", "ecto.migrate", "run priv/repo/seeds.exs"],
+      "ecto.setup": ["ecto.create", "ecto.load --skip-if-loaded", "ecto.migrate", "run priv/repo/seeds.exs"],
       "ecto.reset": ["ecto.drop", "ecto.setup"],
-      test: ["ecto.create --quiet", "ecto.load", "ecto.migrate", "test"]
+      test: ["ecto.create --quiet", "ecto.load --skip-if-loaded", "ecto.migrate", "test"]
     ]
   end
 #+END_SRC
