@@ -1,0 +1,15 @@
+:PROPERTIES:
+:ID:       6CD692A1-F6A8-47DC-944C-582981A2EC7E
+:END:
+#+title: Subdomain with underscores on github pages
+#+filetags: :braindump:
+
+I wasn't able to enable https for my project site - https://github.com/ayrat555/el_monitorro (el_monitorro.badykov.com/)
+
+it was returning the following error:
+
+/Certificate Request Error: Certificate provisioning will retry automatically in a short period, please be patient./
+
+It turns out GitHub can't generate an ssl ceriticate for subdomains with underscores.
+
+When I changed the subdomain to *elmonitorro*, the ssl certificate was finally generated
