@@ -6,6 +6,8 @@
 
 [[https://github.com/ayrat555/el_monitorro][El Monitorro]] is a telegram bot for reading  RSS, Atom and JSON feeds. It's written in Rust.
 
+It has [[https://elmonitorro.badykov.com/][a landing site]] generated from its Readme and Changelog
+
 * Key features:
 
 - High performance.
@@ -27,12 +29,6 @@ The libraries I wrote for this project:
 
 - [[id:02FBC785-4C3F-4C0C-A7CB-19A70ABCA0F7][Fang]]
 - [[id:D996B666-5914-48B7-AB99-7FA2216BFC18][Frankenstein]]
-
-* Backlog
-
-- Use https for docs site
-- Add favicon for docs site
-
 
 * Potential features / improvements
 
