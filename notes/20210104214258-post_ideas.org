@@ -4,10 +4,4 @@
 #+title: Post ideas
 #+filetags: :post:blog_post_idea:
 
-- [[id:659EDAF8-204B-4888-9FC5-5989B2F9AC91][Post about performance testing with datadog]]
-- [[id:C14C4879-9D61-4CAB-8882-AB2A5C0C883C][Note taking]]
-- My braindump setup with org-roam
-- Personal, public(braindump) and work notes
-- Emacs (ox-hugo) converts org-roam notes to hugo posts
-- Brain split
-  My setup of org-mode and my custom functions to handle different contexts
+All posts are written :]

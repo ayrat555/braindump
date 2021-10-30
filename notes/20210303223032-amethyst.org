@@ -4,6 +4,12 @@
 #+title: Amethyst
 #+filetags: :rust:amethyst:braindump:
 
+* Update [2021-10-30 Sat]
+
+Devs of the amethyst abandoned the project ([[https://amethyst.rs/posts/amethyst--starting-fresh][blog post]]).
+
+They're planning to create a new one
+
 * Resources to learn:
 ** Rogue like book
    - https://github.com/amethyst/rustrogueliketutorial
