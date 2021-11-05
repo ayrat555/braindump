@@ -1,0 +1,33 @@
+:PROPERTIES:
+:ID:       F4C7E8EF-DD90-466F-ABA5-C6D54509099A
+:END:
+#+title: Nomad
+#+filetags: :braindump:
+
+Nomad is a container (not only container) orchestration tool.
+
+* Intro
+
+** [[https://learn.hashicorp.com/collections/nomad/get-started][Get Started]]
+
+** [[https://learn.hashicorp.com/collections/nomad/manage-jobs][Manage jobs tutorial]]
+
+** The best doc about job declaration is documentation for default job generated with "nomad job init"
+
+* Docs
+
+** [[https://www.nomadproject.io/docs/job-specification][Job specification]]
+
+** [[https://www.nomadproject.io/docs/drivers/docker][Docker driver]]
+
+* Trefik with nomad / consul
+
+** [[https://learn.hashicorp.com/tutorials/nomad/load-balancing-traefik][Noman with traefik]]
+
+** [[https://doc.traefik.io/traefik/providers/consul-catalog/][Consul with traefik]]
+
+** [[https://atodorov.me/2021/03/27/using-traefik-on-nomad/]["Using Traefik on Nomad" blog post]]
+
+* Useful links
+
+** [[https://github.com/efbar/hashicorp-labs][Nomad vagrant cluster]] to run nomad cluster locally
