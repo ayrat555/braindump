@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       D0A77442-9EBA-4BD0-B2FA-17C39625F177
+:END:
+#+title: Wireguard
+#+filetags: :braindump:
+
+[[https://en.wikipedia.org/wiki/WireGuard][Wireguard]] is a communication protocol for VPNs. It's meant to be more performant than [[https://en.wikipedia.org/wiki/OpenVPN][OpenVPN]]
+
+
+* Install
+
+[[https://github.com/angristan/wireguard-install][This script works like a charm]]

@@ -31,3 +31,15 @@ Nomad is a container (not only container) orchestration tool.
 * Useful links
 
 ** [[https://github.com/efbar/hashicorp-labs][Nomad vagrant cluster]] to run nomad cluster locally
+
+** [[https://medium.com/hashicorp-engineering/hashicorp-nomad-from-zero-to-wow-1615345aa539][From zero to wow post]]
+
+** [[https://github.com/hashicorp/damon][Damon]] - cli client for nomad
+
+* CLI commands
+
+**  nomad alloc logs 1c67d531 doge
+
+** nomad logs -stderr -f -tail -job fabio
+
+** nomad alloc status  99b86719
