@@ -2,7 +2,7 @@
 :ID:       3E888A8E-CCFF-4F38-ACBA-9287816852CE
 :END:
 #+title: BN
-#+filetags: :oos:public::ethereum:elixir:braindump:
+#+filetags: :oos:public:ethereum:elixir:braindump
 
 [[https://github.com/mana-ethereum/bn][BN]] - BN128 elliptic curve operations for Elixir.
 
