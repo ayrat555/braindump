@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ethereum on Ayrat's Braindump</title><link>https://braindump.badykov.com/tags/ethereum/</link><description>Recent content in ethereum on Ayrat's Braindump</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="https://braindump.badykov.com/tags/ethereum/index.xml" rel="self" type="application/rss+xml"/><item><title>Blockscout</title><link>https://braindump.badykov.com/notes/20210830185320-blockscout/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://braindump.badykov.com/notes/20210830185320-blockscout/</guid><description>Blockscout - blockchain explorer for Ethereum based chains.
+I&amp;rsquo;ve worked on it for a year</description></item><item><title>BN</title><link>https://braindump.badykov.com/notes/20210831153758-bn/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://braindump.badykov.com/notes/20210831153758-bn/</guid><description>BN - BN128 elliptic curve operations for Elixir.
+The implementation is inspired (copied :]) from the Vitalik Buterin&amp;rsquo;s python implementation .
+It was needed for the Ethereum Virual Machine operation codes in Mana</description></item><item><title>Ethereum Virual Machine</title><link>https://braindump.badykov.com/notes/20210831154424-ethereum_virual_machine/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://braindump.badykov.com/notes/20210831154424-ethereum_virual_machine/</guid><description>EVM is a virtual machine used in Ethereum based blockchains.
+High-level smart contract languages (Solidity) are compiled to the EVM bytecode.
+Formal spec can be found in the Ethereum Yellow Paper .</description></item><item><title>Ethereum Yellow Paper</title><link>https://braindump.badykov.com/notes/20210831150523-ethereum_yellow_paper/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://braindump.badykov.com/notes/20210831150523-ethereum_yellow_paper/</guid><description>Ethereum Yellow Paper is a formal specification of Ethereum protocol.
+This document is the main source of truth for implementing Ethereum nodes (clients).
+It&amp;rsquo;s written very formal so it&amp;rsquo;s better to start from the Ethereum Whitepaper</description></item><item><title>Ethereumex</title><link>https://braindump.badykov.com/notes/20210902194855-ethereumex/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://braindump.badykov.com/notes/20210902194855-ethereumex/</guid><description>Ethereumex - Elixir JSON-RPC client for the Ethereum blockchain
+Key features:
+Supports IPC and HTTP
+Batch requests
+Custom RPC calls
+Complete wrapper for Ethereum API
+It was my first Ethereum related library. I wrote the first version over one weekend.
+Backlog check if new methods are added</description></item><item><title>ExABI</title><link>https://braindump.badykov.com/notes/20210831151627-exabi/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://braindump.badykov.com/notes/20210831151627-exabi/</guid><description>ExABI - the ABI encoding implementation for Elixir.
+It&amp;rsquo;s used for communication with Ethereum smart contracts.
+The specification can be found in Solidity docs</description></item><item><title>ExRLP</title><link>https://braindump.badykov.com/notes/20210831143205-exrlp/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://braindump.badykov.com/notes/20210831143205-exrlp/</guid><description>ExRLP - RLP encoding implementation for Elixir
+The purpose of RLP (Recursive Length Prefix) is to encode arbitrarily nested arrays of binary data.
+Formal specification can be found in the Ethereum Yellow Paper</description></item><item><title>Mana</title><link>https://braindump.badykov.com/notes/20210830184907-mana/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://braindump.badykov.com/notes/20210830184907-mana/</guid><description>Mana - Ethereum node implementation in Elixir.
+It was started as a hobby project. But after it got some attention from the community (POA Network) I&amp;rsquo;ve started working on it full time.
+I&amp;rsquo;ve worked on it with a good team of developers for almost a year. Now it&amp;rsquo;s abandoned but it can be used as a reference.
+Related projects:
+ExRLP ExABI BN ExSecp256k1</description></item></channel></rss>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>termianl on Ayrat's Braindump</title><link>https://braindump.badykov.com/tags/termianl/</link><description>Recent content in termianl on Ayrat's Braindump</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="https://braindump.badykov.com/tags/termianl/index.xml" rel="self" type="application/rss+xml"/><item><title>tmux</title><link>https://braindump.badykov.com/notes/20210918135953-tmux/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://braindump.badykov.com/notes/20210918135953-tmux/</guid><description>Tmux is a terminal multiplexer. It can be used for:
+running multiple apps in one terminal
+this can be achieved without tmux if your terminal emulator supports window splitting
+persistent sessions, for example, to run long-running tasks on a server
+Another termianl multiplexer is screen . I&amp;rsquo;ve used it for users to run long running tasks on servers.
+But tmux has a better community support:</description></item></channel></rss>

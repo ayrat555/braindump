@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>rust on Ayrat's Braindump</title><link>https://braindump.badykov.com/tags/rust/</link><description>Recent content in rust on Ayrat's Braindump</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="https://braindump.badykov.com/tags/rust/index.xml" rel="self" type="application/rss+xml"/><item><title>Amethyst</title><link>https://braindump.badykov.com/notes/20210303223032-amethyst/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://braindump.badykov.com/notes/20210303223032-amethyst/</guid><description>Update [2021-10-30 Sat] Devs of the amethyst abandoned the project (blog post ).
+They&amp;rsquo;re planning to create a new one
+Resources to learn: Rogue like book https://github.com/amethyst/rustrogueliketutorial Amethyst book https://book.amethyst.rs/book/stable/concepts/system</description></item><item><title>Cronenberg</title><link>https://braindump.badykov.com/notes/20210831083052-cronenberg/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://braindump.badykov.com/notes/20210831083052-cronenberg/</guid><description>Cronenberg - cron command entry parser in Rust.
+It&amp;rsquo;s one of my first open source projects in Rust.
+It should still be working but I think I need to re-write because the Nom version used in the Cronenberg is deprecated.
+Related links:
+Blog post in my blog</description></item><item><title>El Monitorro</title><link>https://braindump.badykov.com/notes/20210109164238-el_monitorro/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://braindump.badykov.com/notes/20210109164238-el_monitorro/</guid><description>El Monitorro is a telegram bot for reading RSS, Atom and JSON feeds. It&amp;rsquo;s written in Rust.
+It has a landing site generated from its Readme and Changelog
+Key features: High performance.
+All processing is done with Fang Filters - users can provide key words he wants to subscribe to
+Templates - users can set a format of messages</description></item><item><title>ExSecp256k1</title><link>https://braindump.badykov.com/notes/20210831153203-exsecp256k1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://braindump.badykov.com/notes/20210831153203-exsecp256k1/</guid><description>ExSecp256k1 - Rust Native Implemented Function (NIF) that wraps a couple functions from the libsecp256k1 Rust library .
+It only wraps secp256k1 functions used in Ethereum.
+Secp256k1 is the name of the elliptic curve to implement its public key cryptography.</description></item><item><title>Fang</title><link>https://braindump.badykov.com/notes/20210830182841-fang/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://braindump.badykov.com/notes/20210830182841-fang/</guid><description>Fang is a background processing framework written in Rust.
+Key attribures:
+Postgres DB is a job queue Multithreaded processing Potential features/improvements Allow duplicates in the queue
+Currently you can not insert the same job in the queue multiple times.
+It&amp;rsquo;s done mostly for El Monitorro Find a way to get rid of typetag
+https://github.com/dtolnay/typetag/issues/35
+Investigate the issue when scheduled task is too old</description></item><item><title>Frankenstein</title><link>https://braindump.badykov.com/notes/20210830183352-frankenstein/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://braindump.badykov.com/notes/20210830183352-frankenstein/</guid><description>Frankenstein is a telegram client written Rust.
+Key features:
+Simplicity Small number of dependencies Http client can be replaced with any library Backlog:
+Think about separating objects.rs and api_params.rs into separate files for each struct</description></item><item><title>metal on mac os</title><link>https://braindump.badykov.com/notes/20210303215232-metal_on_mac_os/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://braindump.badykov.com/notes/20210303215232-metal_on_mac_os/</guid><description>metal is needed for the amethyst framework
+How to fix Install Xcode from the Apple App Store. Install the command line tools with xcode-select &amp;ndash;install. This might do nothing on your machine. If xcode-select &amp;ndash;print-path prints /Library/Developer/CommandLineTools… then run sudo xcode-select &amp;ndash;switch /Applications/Xcode.app/Contents/Developer.
+https://github.com/gfx-rs/gfx/issues/2309#issuecomment-506130902</description></item><item><title>Org mode parser in Rust</title><link>https://braindump.badykov.com/notes/20210903220033-org_mode_parser/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://braindump.badykov.com/notes/20210903220033-org_mode_parser/</guid><description>Org Mode is one of the best things in Emacs.
+But there are a lot of situations when I want to export org mode files into a different format.
+For example, I want to create a custom exporter of my Org-Roam notes into My braindump .
+There are a couple of projects but they&amp;rsquo;re not complete:
+orgize org-rs</description></item><item><title>Resources for learning Rust</title><link>https://braindump.badykov.com/notes/20210107220015-learning_rust/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://braindump.badykov.com/notes/20210107220015-learning_rust/</guid><description>Rust book
+https://doc.rust-lang.org/book/ https://doc.rust-lang.org/reference/index.html
+Beginner&amp;rsquo;s Series to Rust from Microsoft
+https://github.com/microsoft/beginners-series-rust
+https://www.youtube.com/c/JonGjengset
+async/await from JonGjengset Some guides are listed in this post .</description></item></channel></rss>

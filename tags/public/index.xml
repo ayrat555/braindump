@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>public on Ayrat's Braindump</title><link>https://braindump.badykov.com/tags/public/</link><description>Recent content in public on Ayrat's Braindump</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="https://braindump.badykov.com/tags/public/index.xml" rel="self" type="application/rss+xml"/><item><title>Blockscout</title><link>https://braindump.badykov.com/notes/20210830185320-blockscout/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://braindump.badykov.com/notes/20210830185320-blockscout/</guid><description>Blockscout - blockchain explorer for Ethereum based chains.
+I&amp;rsquo;ve worked on it for a year</description></item><item><title>BN</title><link>https://braindump.badykov.com/notes/20210831153758-bn/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://braindump.badykov.com/notes/20210831153758-bn/</guid><description>BN - BN128 elliptic curve operations for Elixir.
+The implementation is inspired (copied :]) from the Vitalik Buterin&amp;rsquo;s python implementation .
+It was needed for the Ethereum Virual Machine operation codes in Mana</description></item><item><title>Cronenberg</title><link>https://braindump.badykov.com/notes/20210831083052-cronenberg/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://braindump.badykov.com/notes/20210831083052-cronenberg/</guid><description>Cronenberg - cron command entry parser in Rust.
+It&amp;rsquo;s one of my first open source projects in Rust.
+It should still be working but I think I need to re-write because the Nom version used in the Cronenberg is deprecated.
+Related links:
+Blog post in my blog</description></item><item><title>El Monitorro</title><link>https://braindump.badykov.com/notes/20210109164238-el_monitorro/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://braindump.badykov.com/notes/20210109164238-el_monitorro/</guid><description>El Monitorro is a telegram bot for reading RSS, Atom and JSON feeds. It&amp;rsquo;s written in Rust.
+It has a landing site generated from its Readme and Changelog
+Key features: High performance.
+All processing is done with Fang Filters - users can provide key words he wants to subscribe to
+Templates - users can set a format of messages</description></item><item><title>Ethereum Virual Machine</title><link>https://braindump.badykov.com/notes/20210831154424-ethereum_virual_machine/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://braindump.badykov.com/notes/20210831154424-ethereum_virual_machine/</guid><description>EVM is a virtual machine used in Ethereum based blockchains.
+High-level smart contract languages (Solidity) are compiled to the EVM bytecode.
+Formal spec can be found in the Ethereum Yellow Paper .</description></item><item><title>Ethereumex</title><link>https://braindump.badykov.com/notes/20210902194855-ethereumex/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://braindump.badykov.com/notes/20210902194855-ethereumex/</guid><description>Ethereumex - Elixir JSON-RPC client for the Ethereum blockchain
+Key features:
+Supports IPC and HTTP
+Batch requests
+Custom RPC calls
+Complete wrapper for Ethereum API
+It was my first Ethereum related library. I wrote the first version over one weekend.
+Backlog check if new methods are added</description></item><item><title>ExRLP</title><link>https://braindump.badykov.com/notes/20210831143205-exrlp/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://braindump.badykov.com/notes/20210831143205-exrlp/</guid><description>ExRLP - RLP encoding implementation for Elixir
+The purpose of RLP (Recursive Length Prefix) is to encode arbitrarily nested arrays of binary data.
+Formal specification can be found in the Ethereum Yellow Paper</description></item><item><title>Fang</title><link>https://braindump.badykov.com/notes/20210830182841-fang/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://braindump.badykov.com/notes/20210830182841-fang/</guid><description>Fang is a background processing framework written in Rust.
+Key attribures:
+Postgres DB is a job queue Multithreaded processing Potential features/improvements Allow duplicates in the queue
+Currently you can not insert the same job in the queue multiple times.
+It&amp;rsquo;s done mostly for El Monitorro Find a way to get rid of typetag
+https://github.com/dtolnay/typetag/issues/35
+Investigate the issue when scheduled task is too old</description></item><item><title>Frankenstein</title><link>https://braindump.badykov.com/notes/20210830183352-frankenstein/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://braindump.badykov.com/notes/20210830183352-frankenstein/</guid><description>Frankenstein is a telegram client written Rust.
+Key features:
+Simplicity Small number of dependencies Http client can be replaced with any library Backlog:
+Think about separating objects.rs and api_params.rs into separate files for each struct</description></item><item><title>HD wallets for Elixir</title><link>https://braindump.badykov.com/notes/20210906224050-hd_wallets_for_elixir/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://braindump.badykov.com/notes/20210906224050-hd_wallets_for_elixir/</guid><description>Hierarchical deterministic wallet is a wallet that may generate a new key pair from a master key pair for each crypto transaction to enhance privacy and security.
+There is already an implementation for bitcoin . But it seems not maintained. Also it doesn&amp;rsquo;t support related chains like Dogecoin.</description></item><item><title>Hornet</title><link>https://braindump.badykov.com/notes/20210831155211-hornet/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://braindump.badykov.com/notes/20210831155211-hornet/</guid><description>Hornet is an Elixir library for stress testing.
+It executes the given function with the given rate (calls per second), dynamically changing the number of processes to maintain the rate.</description></item><item><title>Mana</title><link>https://braindump.badykov.com/notes/20210830184907-mana/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://braindump.badykov.com/notes/20210830184907-mana/</guid><description>Mana - Ethereum node implementation in Elixir.
+It was started as a hobby project. But after it got some attention from the community (POA Network) I&amp;rsquo;ve started working on it full time.
+I&amp;rsquo;ve worked on it with a good team of developers for almost a year. Now it&amp;rsquo;s abandoned but it can be used as a reference.
+Related projects:
+ExRLP ExABI BN ExSecp256k1</description></item><item><title>My emacs projects</title><link>https://braindump.badykov.com/notes/20210901190330-my_emacs_projects/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://braindump.badykov.com/notes/20210901190330-my_emacs_projects/</guid><description> Mix.el - minor mode for mix (elixir)
+Cargo-mode - minor mode for cargo (rust)
+Company-elixir - company-mode backend for Elixir</description></item><item><title>My projects</title><link>https://braindump.badykov.com/notes/20210830181701-my_projects/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://braindump.badykov.com/notes/20210830181701-my_projects/</guid><description>Rust El Monitorro - Telegram bot for reading feeds in Rust
+Fang - Background processing library in Rust
+Frankenstein - Telegram client for Rust
+Cronenberg - Simple cron command entry parser in Rust
+Elixir Mana - Ethereum implementation in Elixir
+Blockscout - Ethereum explorer
+ExRLP - Elixir implementation of Ethereum&amp;rsquo;s RLP (Recursive Length Prefix) encoding</description></item><item><title>Open source project ideas</title><link>https://braindump.badykov.com/notes/20210903215852-open_source_project_ideas/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://braindump.badykov.com/notes/20210903215852-open_source_project_ideas/</guid><description>Here you can find a list of projects that I want to develop but apparently don&amp;rsquo;t have enough time to do so.
+Feel free to pick / steal anything from this list.
+Org mode parser HD wallets for Elixir</description></item><item><title>Org mode parser in Rust</title><link>https://braindump.badykov.com/notes/20210903220033-org_mode_parser/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://braindump.badykov.com/notes/20210903220033-org_mode_parser/</guid><description>Org Mode is one of the best things in Emacs.
+But there are a lot of situations when I want to export org mode files into a different format.
+For example, I want to create a custom exporter of my Org-Roam notes into My braindump .
+There are a couple of projects but they&amp;rsquo;re not complete:
+orgize org-rs</description></item></channel></rss>
