@@ -24,9 +24,13 @@
 
 - [[id:B08DF289-F2C7-4888-9941-5915DE01FEC5][ExABI]] - The Application Binary Interface (ABI) of Solidity for Elixir
 
+- [[id:1DD93683-7810-49E6-A28F-615896E633BD][Cryptopunk]] - Hierarchical deterministic wallet for Elixir.
+
 - [[id:62B890A0-F425-4A7F-AA3D-77B0C04D22D1][ExSecp256k1]] - Libsecp256k1 NIF
 
 - [[id:DCE998DD-B1BE-4739-92D6-B03F30D12ED9][Ethereumex]] - Elixir JSON-RPC client for the Ethereum blockchain
+
+- [[id:30652A49-5098-405D-AE6A-DD4C2885DEBA][ExPBKDF2]] - Rust NIf for Password-Based Key Derivation Function v2 (PBKDF2)
 
 - [[id:3E888A8E-CCFF-4F38-ACBA-9287816852CE][BN]] - BN128 elliptic curve operations for Elixir.
 

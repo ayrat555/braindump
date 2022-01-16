@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       30652A49-5098-405D-AE6A-DD4C2885DEBA
+:END:
+#+title: ExPBKDF2
+#+filetags: :braindump:elixir:oss
+
+[[https://github.com/ayrat555/ex_pbkdf2][ExPBKDF2]] - Rust NIf for [[https://en.wikipedia.org/wiki/PBKDF2][Password-Based Key Derivation Function v2 (PBKDF2)]]. It uses the [[https://github.com/RustCrypto/password-hashes/tree/master/pbkdf2][pbkdf2]] rust library.

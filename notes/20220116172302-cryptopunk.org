@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       1DD93683-7810-49E6-A28F-615896E633BD
+:END:
+#+title: Cryptopunk
+#+filetags: :braindump:elixir:oss:crypto
+
+
+[[https://github.com/ayrat555/cryptopunk][Cryptopunk]] is [[https://en.bitcoinwiki.org/wiki/Deterministic_wallet][Hierarchical deterministic wallet]] implementation for Elixir.
+
+It implements the following BIPs:
+
+- [[https://github.com/bitcoin/bips/blob/master/bip-0032.mediawiki][BIP 32]] - Hierarchical Deterministic Wallets
+- [[https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki][BIP 39]] - Mnemonics
+- [[https://github.com/bitcoin/bips/blob/master/bip-0044.mediawiki][BIP 44]] - Multi-Account Hierarchy for Deterministic Wallets

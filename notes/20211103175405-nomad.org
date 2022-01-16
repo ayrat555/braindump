@@ -42,4 +42,8 @@ Nomad is a container (not only container) orchestration tool.
 
 ** nomad logs -stderr -f -tail -job fabio
 
-** nomad alloc status  99b86719
+** nomad alloc status 99b86719
+
+** nomad job status -namespace=daleandchip  daleandchip-dogecoin-regtest-node1
+
+** nomad alloc status -namespace=daleandchip 86f7bbec
