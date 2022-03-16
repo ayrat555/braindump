@@ -6,5 +6,5 @@
 
 I accept donations with:
 
-- [[https://paypal.me/ayrat555][PayPal]]
 - [[https://github.com/sponsors/ayrat555][GitHub]]
+- My Bitcoin address - bc1q94ru65c8pg87ghhjlc7fteuxncpyj8e28cxf42
