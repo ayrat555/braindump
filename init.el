@@ -36,7 +36,7 @@
 
 (use-package backtrace)
 (use-package ox-hugo
-  :straight (:type git :host github :repo "kaushalmodi/ox-hugo"))
+  :straight (:type git :host github :repo "kaushalmodi/ox-hugo" :commit "549cc20b5532948608e849c2865823b8612f72a2"))
 
 ;;; Public functions
 (defun build/export-all ()
