@@ -23,7 +23,7 @@ jobs:
       - name: Install emacs
         uses: purcell/setup-emacs@master
         with:
-          version: '27.1'
+          version: '28.1'
 
       - name: Convert org files to hugo
         run: make org2hugo
