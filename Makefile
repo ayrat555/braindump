@@ -9,8 +9,6 @@ all: org2hugo
 .PHONY: org2hugo
 org2hugo:
 	mkdir -p $(BUILD_DIR)
-	mkdir -p $(EMACS_BUILD_DIR)straight/versions/
 	cp -r $(BASE_DIR)/init.el $(EMACS_BUILD_DIR)
-	cp -r $(BASE_DIR)/default.el $(EMACS_BUILD_DIR)straight/versions/
         # Build temporary minimal EMACS installation separate from the one in the machine.
 	HOME=$(EMACS_BUILD_DIR) NOTES_ORG_SRC=$(SOURCE_ORG_FILES) HUGO_SECTION=$(HUGO_SECTION) HUGO_BASE_DIR=$(BASE_DIR) emacs -Q --batch --load $(EMACS_BUILD_DIR)/init.el --execute "(build/export-all)" --kill
