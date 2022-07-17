@@ -10,3 +10,128 @@ Key features:
 
 - Performance
 - Safety
+
+* Advantages of Rust
+ - Move semantics
+ - Minimal runtime
+ - Efficient C bindings
+ - Trait based generics
+ - Zero cost abstractions
+ - Pattern matching
+ - Type inference
+
+* Trait object
+
+ - object that stores value of any type as long as it implements the trait
+ - data pointer and vtable pointer (trait impl)
+ - a generic type parameter can only work with one concrete type at a time, whereas trait objects allow for multiple concrete types to fill in for the trait object at run-time
+
+* Programming Rust
+
+** Why Rust
+
+*** Performance
+
+    in terms of performance Rust is comparable to C++ and can be used in the same domain
+
+    But it solves some problems attributed to C++
+
+    - Undefined behaviour (double frees, null pointer derefence etc)
+
+      It solves this problem by having strict compiler checks and shift of paradigm (borrowing)
+
+    - Parallel Programming
+
+      Data can be used between threads without data racing
+
+*** Pleasant to use
+
+    - type inference
+
+    - zero cost abstractions
+
+    - pattern matching
+
+** Types
+
+*** Numeric
+   - u8 - u128
+   - i8 - i128
+   - usize / isize
+   - f32 / f64
+
+*** Bool
+*** Char
+    Unicode character
+*** Tuple
+*** Refence types
+   Single write or Mutable Readers
+
+   - Immutable reference (&T)
+   - Multable Reference (&mut T)
+
+*** Box
+
+    A way to allocate value on heap
+
+*** Sequences of values in memory
+
+   - Array
+
+    constant size
+
+   - Vector
+
+       - allocated on Heap
+       - growable
+
+   - Slice
+
+    - refences to series of elements of other value
+    - pointer to the fiest elelemnt and size you can access
+
+*** String types
+
+    - String - UTF-8 encoded text. buffer allocated on heap
+    - &str - a refence to UTF-8 text owned by someone else. can be thought as &[u8]
+
+** Ownership and moves
+
+*** Two types of managing memory
+
+  - Safety first - garbage collector
+  - Control first - programming is in charge of freeing memory - C++
+  - Rust - uses different approaches by inventing a new way of working with pointers
+
+*** Ownerships
+
+  - you can change owner
+  - simple types are excused from ownershop rules - they're copy types
+  - std provides reference-counted types Rc and Arc - they allow value to have multiple owners
+  - you can borrow a refences
+
+** References
+
+   - Shared reference
+
+   Read but not modify its referent. Unlimited number at the same time
+
+   - Mutable Reference
+
+  Read and modify. Only single refence of this type at the same time
+
+   - Fat Pointers
+      - reference to a slice
+      - trait object
+
+   - Static
+
+     Rust's equavent of global varialbe. It's global in lifetime, not visibility
+
+** Error handling
+
+  Panic
+
+  - Out of bounds array access
+  - Assertion by zero
+  - Devision by zero

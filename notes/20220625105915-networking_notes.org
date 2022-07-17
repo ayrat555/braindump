@@ -6,11 +6,11 @@
 
 * OSI Model
 
-** 7 layers that standartize networks
+ 7 layers that standartize networks
 
-** Not used anymore - tcp / ip is sued
+ Not used anymore - tcp / ip is used
 
-** Layers
+ Layers
 
   - Physical - cable
   - Data link - mac address
@@ -24,49 +24,49 @@
 
  Created to standartize computer networking
 
-** Application - application protocols (http, smtp, ftp)  - DATA
+ - Application - application protocols (http, smtp, ftp)  - DATA
 
-** Transport - TCP/UDP protocols   - SEGMENT
+ - Transport - TCP/UDP protocols   - SEGMENT
 
-** Network  - IP                  - PACKET
+ - Network  - IP                  - PACKET
 
-** Data link - ETHERNET           - FRAME
+ - Data link - ETHERNET           - FRAME
 
-** Physical - Cable
+ - Physical - Cable
 
 * TCP vs UDP
 
 ** TCP
 
-*** Used when good and reliable connection is needed (for example to download files)
+  - Used when good and reliable connection is needed (for example to download files)
 
-*** Two computers ack the connection before it takes place. Three way handshake
+  - Two computers ack the connection before it takes place. Three way handshake
 
-   - Syn -> Syn Ack -> Ack Received
+    Syn -> Syn Ack -> Ack Received
 
-*** Tcp assigns numbers to data that being sent
+  - Tcp assigns numbers to data that being sent
 
-*** Receiver calculates checksum and sends to sender
+  - Receiver calculates checksum and sends to sender
 
-*** Tcp will re-send data if it wasn't delivered
+  - Tcp will re-send data if it wasn't delivered
 
 ** UDP
 
-*** It doesn't establish a session
+  - It doesn't establish a session
 
-*** Fire and forget protocol
+  - Fire and forget protocol
 
-*** Udp is faster
+  - Udp is faster
 
-*** Live realtime connections - voice call, video calls, gaming
+  - Live realtime connections - voice call, video calls, gaming
 
 * Mac Address
 
-**  Unique address assigned to network interface card
+ Unique address assigned to network interface card
 
 * DNS - domain name system
 
-** DNS translates domain name into ip address
+ DNS translates domain name into ip address
 
 - Check local cache first
 - If it's not found in local cache - dns resolver
@@ -79,12 +79,12 @@
 
 ** HTTPS - data transferred encrypted
 
-*** a client tries to access an https site
+  - a client tries to access an https site
 
-*** a site returns certificate with public key
+  - a site returns a certificate with public key
 
-*** a client verifies certificate in the certificate authority
+  - a client verifies certificate in the certificate authority
 
-*** a client create a new secret key and signs it with the public key in the certificate
+  - a client create a new secret key and signs it with the public key in the certificate
 
-*** all communication is encrypted with this private key
+  - all communication is encrypted with this private key
